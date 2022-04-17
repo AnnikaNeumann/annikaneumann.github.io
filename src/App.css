@@ -1,5 +1,65 @@
 .App {
   text-align: center;
+  background-color: rgb(209, 218, 209);
+  /* background: scroll; */
+  font-family: monospace;
+  font-size: 18px;
+
 
 }
 
+.header{
+  background-color: green;
+  text-align: center;
+  height: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.github{
+  height: 50px;
+  width: 50px;
+  float:left;
+}
+
+.linkedin{
+
+  height: 50px;
+  width: 50px;
+  float:left;
+  margin-left: 10px;
+}
+
+h1{
+  color: black;
+}
+
+.logoImage{
+  border-radius: 50%;
+  width: 20%;
+  display:flex;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+.about {
+  display: flex;
+  align-content: center;  
+  padding: 10px;
+  /* border:1.5px solid; */
+  /* border-color: black; */
+  text-align: left;
+  
+}
+
+
+.About{
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-top: 30px;
+  display:inline-flex;
+
+}
