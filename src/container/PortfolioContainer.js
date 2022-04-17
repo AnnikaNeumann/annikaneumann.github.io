@@ -13,7 +13,7 @@ const PortfolioContainer = () =>{
     return(
         <>
         <Header/>
-        <h2>Hello, my name is Annika - <br></br>Life between Coding (since 2021) and Cats (for 38 years)</h2>
+        <h2>Hello, my name is Annika<br></br>Life between Coding (since 2021) and Cats (for 38 years)</h2>
         <About/>
         <br></br>
         <Projects/>

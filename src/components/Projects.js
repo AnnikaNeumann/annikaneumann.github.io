@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from './Footer';
-import Header from './Header';
 const Projects = () =>{
 
 
@@ -8,7 +7,6 @@ const Projects = () =>{
         <>
         
         <div className="split right">
-        <Header/>
         
         <div className="Projects">
         <h3>Take a sneak peak into my recent projects</h3>
