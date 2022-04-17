@@ -17,7 +17,6 @@ const PortfolioContainer = () =>{
         <About/>
         <br></br>
         <Projects/>
-        <Footer/>
         </> 
 
     )

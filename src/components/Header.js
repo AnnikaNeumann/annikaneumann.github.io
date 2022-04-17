@@ -5,9 +5,6 @@ import About from "./About";
 
 const Header = () => {
 
-    // const handleClick = function(){
-    //     onClick(handleClick)
-    // }
 
     return (
         <div className="header">

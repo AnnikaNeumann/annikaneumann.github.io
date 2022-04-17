@@ -1,15 +1,13 @@
 import React from "react";
 
-
 const About = () =>{
 
 
     return(
-
+        <div className="split left">
         <div className="about">
-    
+
         <section>
-        <img className="logoImage" src={require("../images/annika.jpg")} alt='Annika'/> 
 
         <p><h3>Get to know me</h3>I've always liked being creative in regards with everything DIY and having been interested in Web Development for a while,<br></br>
         I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued in coding.
@@ -23,10 +21,13 @@ const About = () =>{
 
         </section>
         </div>
-  
+        </div>
+
+        
     )
 
 }
+
 
 
 

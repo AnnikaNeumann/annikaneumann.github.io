@@ -1,8 +1,15 @@
 import React from 'react';
+import Footer from './Footer';
+import Header from './Header';
 const Projects = () =>{
 
 
     return(
+        <>
+        
+        <div className="split right">
+        <Header/>
+        
         <div className="Projects">
         <h3>Take a sneak peak into my recent projects</h3>
         <a href='https://github.com/AnnikaNeumann/1st-Project-Vet-Management-App.git'>React App - Information about the cult series "Breaking Bad"</a>
@@ -10,13 +17,15 @@ const Projects = () =>{
 
         <a href='https://github.com/AnnikaNeumann/1st-Project-Vet-Management-App.git'>Python Vet Management App</a>
         </div>
+        <img className="logoImage" src={require("../images/annika.jpg")} alt='Annika'/>
+
+        <Footer/>
+        </div>
+        </>
+
+        
     )
 }
-
-
-
-
-
 
 
 
