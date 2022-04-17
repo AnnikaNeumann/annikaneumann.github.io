@@ -10,7 +10,7 @@ const Projects = () =>{
         
         <div className="Projects">
         <h3>Take a sneak peak into my recent projects</h3>
-        <a href='https://github.com/AnnikaNeumann/1st-Project-Vet-Management-App.git'>React App - Information about the cult series "Breaking Bad"</a>
+        <a href='https://github.com/AnnikaNeumann/W7Hw_BreakingBad_React.git'>React App - Information about the cult series "Breaking Bad"</a>
         <br></br><br></br>
 
         <a href='https://github.com/AnnikaNeumann/1st-Project-Vet-Management-App.git'>Python Vet Management App</a>
