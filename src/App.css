@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgb(209, 218, 209);
+  background-color: rgb(58, 164, 58);
   /* background: scroll; */
   font-family: monospace;
   font-size: 18px;
@@ -39,7 +39,7 @@ h1{
 .logoImage{
   border-radius: 50%;
   width: 20%;
-  display:flex;
+  display:right;
   margin-left: 20px;
   margin-top: 5px;
 }
@@ -49,10 +49,9 @@ h1{
   display: flex;
   align-content: center;  
   padding: 10px;
-  /* border:1.5px solid; */
-  /* border-color: black; */
-  text-align: left;
-  
+  text-align: right;
+  width: 700px; 
+  height: auto;
 }
 
 
@@ -62,4 +61,15 @@ h1{
   padding-top: 30px;
   display:inline-flex;
 
+}
+
+.Projects{
+
+
+
+}
+
+.Footer{
+  background-color: white;
+  font-size: 15px;
 }
