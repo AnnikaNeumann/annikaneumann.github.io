@@ -43,8 +43,26 @@ h1{
   position: relative;
   top:100px;
   left: 200px;
-
 }
+
+.germanflag{
+  border-radius: 20%;
+  width: 3%;
+  display:inline-block;
+}
+
+.scotlandflag{
+  border-radius: 20%;
+  width: 3%;
+  display:inline-block;
+}
+
+.swissflag{
+  border-radius: 20%;
+  width: 3%;
+  display:inline-block;
+}
+
 
 .about {
   display: flex;
