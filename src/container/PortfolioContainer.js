@@ -14,7 +14,6 @@ const PortfolioContainer = () =>{
         <Header/>
         <h2>Hello, my name is Annika Neumann<br></br>Life between Coding (since 2021) and Cats (for 38 years)</h2>
         <About/>
-        <br></br>
         <Projects/>
         </> 
 

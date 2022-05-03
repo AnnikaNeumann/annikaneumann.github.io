@@ -5,10 +5,10 @@ const About = () =>{
 
 
     return(
+        <div className="container-left">
         <div className="split left">
         <div className="about">
-
-        <section>
+        
         <p><h3>Get to know me</h3>I've always liked being creative. I was involved with Web Development in my previous job, and I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued with coding.
         <br></br><br></br>A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint, which works with a microprocessor. Knowing that someone wrote the software controlling my leg gave me an incredible sense of wonder. <br></br><br></br> 
         The endless possibilities and instant visual changes sparked my interest in frontend development, and I signed up to become a developer myself. I am keen on working with React/Javascript to be able to create everything required for both front and backend development. 
@@ -19,10 +19,9 @@ const About = () =>{
         and the ability to work with deadlines and approach problem solving for my future career as a Software Developer.
         <h3>What I enjoy besides coding</h3>
         Riding my Vespa motorscooter, practising my British Sign Language Skills (Level 2), attending Star Trek/ Comic Conventions, Film Festivals, spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
-        </section>
         </div>
         </div>
-
+        </div>
         
     )
 

@@ -36,23 +36,49 @@ h1{
   color: black;
 }
 
-.logoImage{
-  border-radius: 70%;
-  width: 40%;
-  display:flex;
-  position: relative;
-  top:100px;
-  left: 200px;
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+
+}
+
+.flex-container > div{
+  width: 500px;
+  height: 500px;
+
+}
+
+/* Responsive layout  - one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+} 
+
+.BreakingBad{
+  border-radius: 5%;
+  width: 70%;
+  right: 10px;
+  margin-top: 30px;
+}
+
+.Quiz{
+  border-radius: 5%;
+  width: 50%;
+  right: 10px;
+  margin-top: 30px;
 }
 
 .about {
-  display: flex;
   text-align: justify;  
   padding: 8px;
   text-align:justify;
   width: 700px; 
   height: auto;
-  overflow: auto;
+  overflow: hidden;
+  resize: none;
 
 }
 
@@ -61,33 +87,36 @@ h1{
   background-color: #FADCD9;
   font-size: 10px;
   position: fixed;
-  text-align: left;
   bottom: 0%;
-  width: 80%
+  width: 150%
 }
 
 /* Split the screen in half */
 .split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  /* padding-top: 3px; */
+  /* height: 100%; */
+  width: 100%;
+  /* overflow-x: hidden; */
+  padding-top: 20px;
 }
 
 /* Control the left side */
 .left {
-  left: 0;
-  top: 90px;
+  /* left: 0; */
+  /* top: 90px; */
   background-color: #F9F1F0;
-  float: left;
-  height: auto;
-
+  /* float: left;
+  height: auto; */
 }
 
 .right {
-  right: 0;
-  top: 90px;
+  /* right: 0;
+  top: 90px; */
   background-color: #FADCD9;
+}
+
+.container-left{
+  display: flex;
+  min-height: 100vh;
 }
 
 a:link{
