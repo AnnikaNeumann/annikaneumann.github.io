@@ -9,7 +9,8 @@ const Projects = () =>{
         <div className="split right">
         
         <div className="Projects">
-        <h3>Take a sneak peak into my recent projects</h3>
+        <h2>Take a sneak peak into my recent projects</h2>
+        <h4>This website is also accessible via Screen Reader</h4>
         <a href='https://github.com/AnnikaNeumann/W7Hw_BreakingBad_React.git'>React App - Information about the cult series "Breaking Bad"</a>
         <br></br><br></br>
 
