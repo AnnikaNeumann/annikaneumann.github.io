@@ -21,15 +21,22 @@ const Projects = () =>{
         <br></br><br></br>
         
         <div>
-        <a href='github.com/AnnikaNeumann/trivia_js_project'>React App - A fun "Wizard of Oz" themed Trivia Quiz with a variety of <br>
-        </br>categories and difficulty levels.</a><br></br>
+        <a href='https://github.com/AnnikaNeumann/trivia_js_project'>React App - A fun Trivia Quiz<br>
+        </br></a><br></br>
         <img className="Quiz" src={require("../images/Quiz.png")} alt='Quiz'/>
-        
+        </div>
+        <br></br><br></br>
+
+        <div>
+        <a href='https://github.com/AnnikaNeumann/W9LabHotelBooking.git'>React App - HotelBooking</a><br>
+        </br><br></br>
+        <img className="Hotel" src={require("../images/hotel.png")} alt='Hotel'/>
         </div>
         <br></br><br></br>
 
         </div>
         </div>
+        
         <Footer/>
         </>
 

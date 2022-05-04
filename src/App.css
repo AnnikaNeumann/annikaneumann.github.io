@@ -1,28 +1,29 @@
 .App {
   text-align: center;
-  background-color: rgb(230, 234, 230);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  background-color: #F9F1F0;
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
   padding-top: 1px;
 }
 
 .header{
   text-align: center;
-  /* position:; */
+  background-color: #FADCD9;
+
 }
 
 li {
   list-style-type: none;
 }
 
+/* icon in header */
 .github{
   height: 50px;
   width: 50px;
   float:left;
   margin-top: 10px;
-
 }
-
+/* icon in header */
 .linkedin{
 
   height: 50px;
@@ -39,14 +40,27 @@ h1{
 
 .flex-container{
   display: flex;
-  justify-content: space-between;
-  flex-direction:row;
-
+  /* justify-content:center; */
+  flex-direction:column;
+  font-family: 'Playfair Display', serif; 
+  font-size: 18px;
 }
 
 .flex-container > div{
-  width: 500px;
-  height: 500px;
+  width: auto;
+  height: auto;
+}
+
+/* About.js */
+.flex-about{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row-reverse;
+}
+
+.flex-about > div{
+  width: 1000px;
+  height: auto;
 
 }
 
@@ -57,66 +71,77 @@ h1{
   }
 } 
 
+@media (max-width: 800px) {
+  .flex-about {
+    flex-direction: column;
+  }
+} 
+
+
+
+
+/* image of app */
 .BreakingBad{
   border-radius: 5%;
-  width: 70%;
+  width: 40%;
   right: 10px;
   margin-top: 30px;
+  font-family: "BreakingBad";
 }
 
+/* image of app */
 .Quiz{
+  border-radius: 5%;
+  width: 40%;
+  margin-top: 30px;
+  font-family: "Wizard1";
+}
+
+.Hotel{
+  border-radius: 5%;
+  width: 40%;
+  margin-top: 30px;
+  font-family: "California";
+}
+
+.annika{
   border-radius: 5%;
   width: 50%;
   right: 10px;
-  margin-top: 30px;
+  opacity: 60%;
+  margin-top: 300px;
 }
 
 .about {
   text-align: justify;  
   padding: 8px;
-  text-align:justify;
   width: 700px; 
   height: auto;
-  overflow: hidden;
-  resize: none;
-
+  
 }
-
 
 .Footer{
   background-color: #FADCD9;
   font-size: 10px;
   position: fixed;
   bottom: 0%;
-  width: 150%
+  width: 100%;
+  text-align: center;
 }
 
 /* Split the screen in half */
 .split {
-  /* height: 100%; */
   width: 100%;
-  /* overflow-x: hidden; */
   padding-top: 20px;
 }
 
 /* Control the left side */
 .left {
-  /* left: 0; */
-  /* top: 90px; */
-  background-color: #F9F1F0;
-  /* float: left;
-  height: auto; */
+background-color: #F9F1F0;
 }
 
 .right {
-  /* right: 0;
-  top: 90px; */
-  background-color: #FADCD9;
-}
-
-.container-left{
-  display: flex;
-  min-height: 100vh;
+background-color: #FADCD9;
 }
 
 a:link{
@@ -130,4 +155,19 @@ a:hover{
 }
 a:active{
   text-decoration: none;
+}
+
+@font-face {
+  font-family: "Wizard1";
+  src: url('/src/fonts/Wizard1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "California";
+  src: url('/src/fonts/California.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "BreakingBad";
+  src: url('/src/fonts/BreakingBad.otf');
 }
