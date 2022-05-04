@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.10cb89bd.chunk.css",
-  "main.js": "/static/js/main.2953624b.chunk.js",
-  "main.js.map": "/static/js/main.2953624b.chunk.js.map",
+  "main.css": "/static/css/main.317d7462.chunk.css",
+  "main.js": "/static/js/main.4b75510f.chunk.js",
+  "main.js.map": "/static/js/main.4b75510f.chunk.js.map",
   "static/js/1.206e060b.chunk.js": "/static/js/1.206e060b.chunk.js",
   "static/js/1.206e060b.chunk.js.map": "/static/js/1.206e060b.chunk.js.map",
   "static/js/2.00d30d3b.chunk.js": "/static/js/2.00d30d3b.chunk.js",
@@ -13,8 +13,8 @@
   "static/media/Quiz.png": "/static/media/Quiz.9dfcb23e.png",
   "static/media/hotel.png": "/static/media/hotel.def1ac06.png",
   "static/media/annika.png": "/static/media/annika.dcbc0ae5.png",
-  "static/css/main.10cb89bd.chunk.css.map": "/static/css/main.10cb89bd.chunk.css.map",
+  "static/css/main.317d7462.chunk.css.map": "/static/css/main.317d7462.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9d12f723e845d931d6d6a113df11fe46.js": "/precache-manifest.9d12f723e845d931d6d6a113df11fe46.js",
+  "precache-manifest.ae00092294d799689f9f0aef30ff3c81.js": "/precache-manifest.ae00092294d799689f9f0aef30ff3c81.js",
   "service-worker.js": "/service-worker.js"
 }
