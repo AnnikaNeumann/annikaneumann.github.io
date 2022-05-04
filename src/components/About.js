@@ -7,9 +7,10 @@ const About = () =>{
     return(
         
         <div className="flex-about">
-        <div><img className="annika" src={require("./src/images/annika.jpg")} alt='annika'/>
         <div className="about">
-        
+        <div><img className="annika" src={require("../images/annika.jpg")} alt='annika'/></div>
+
+
         <h3>Get to know me</h3><p>I've always liked being creative. I was involved with Web Development in my previous job, 
         and I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued with coding.
         <br></br><br></br>A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint,
@@ -32,7 +33,7 @@ const About = () =>{
         spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
         </div>
         </div>
-        </div>
+        
 
         
     )
