@@ -7,7 +7,7 @@ const About = () =>{
     return(
         
         <div className="flex-about">
-        <div><img className="annika" src={require("../images/annika.jpg")} alt='Annika'/></div>
+        <div><img className="annika" src={require("./src/images/annika.jpg")} alt='annika'/>
         <div className="about">
         
         <h3>Get to know me</h3><p>I've always liked being creative. I was involved with Web Development in my previous job, 
@@ -32,17 +32,11 @@ const About = () =>{
         spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
         </div>
         </div>
-        
+        </div>
+
         
     )
 
 }
-
-
-
-
-
-
-
 
 export default About;
