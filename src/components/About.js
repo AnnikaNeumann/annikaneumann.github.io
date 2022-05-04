@@ -7,9 +7,8 @@ const About = () =>{
     return(
         
         <div className="flex-about">
+        <div><img className="annika" src={require("../static/annika.png")} alt='annika'/></div>
         <div className="about">
-        <div><img className="annika" src={require("../images/annika.jpg")} alt='annika'/></div>
-
 
         <h3>Get to know me</h3><p>I've always liked being creative. I was involved with Web Development in my previous job, 
         and I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued with coding.

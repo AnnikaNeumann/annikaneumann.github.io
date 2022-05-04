@@ -28,7 +28,7 @@ const Projects = () =>{
         <br></br><br></br>
 
         <div>
-        <a href='https://github.com/AnnikaNeumann/W9LabHotelBooking.git'>React App - HotelBooking</a><br>
+        <p><a href='https://github.com/AnnikaNeumann/W9LabHotelBooking.git'>React App - HotelBooking</a></p><br>
         </br><br></br>
         <img className="Hotel" src={require("../images/hotel.png")} alt='Hotel'/>
         </div>
