@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "85600e1ea70808c6c7d8",
+    "revision": "f8f221d9dc6bb4701f10",
     "url": "/static/css/main.3ffd9a08.chunk.css"
   },
   {
-    "revision": "85600e1ea70808c6c7d8",
-    "url": "/static/js/main.85600e1e.chunk.js"
+    "revision": "f8f221d9dc6bb4701f10",
+    "url": "/static/js/main.f8f221d9.chunk.js"
   },
   {
-    "revision": "206e060bd7d3afd2158d",
-    "url": "/static/js/1.206e060b.chunk.js"
+    "revision": "7d8a5b69bced8be18895",
+    "url": "/static/js/1.7d8a5b69.chunk.js"
   },
   {
     "revision": "00d30d3beaa9e02c0f17",
     "url": "/static/js/2.00d30d3b.chunk.js"
   },
   {
-    "revision": "ae42267ff6069bcb7427",
-    "url": "/static/js/runtime~main.ae42267f.js"
+    "revision": "43928d61158871188870",
+    "url": "/static/js/runtime~main.43928d61.js"
   },
   {
     "revision": "d492efc706db983e74258dbd348f2208",
@@ -36,11 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/hotel.def1ac06.png"
   },
   {
-    "revision": "dcbc0ae54a2b7fabf1ff9600ce6c86a7",
-    "url": "/static/media/annika.dcbc0ae5.jpg"
-  },
-  {
-    "revision": "f187666116742033ba80ebd621a0c80c",
+    "revision": "4747f6ff9ec6e1e5c333624f285b2acb",
     "url": "/index.html"
   }
 ];
