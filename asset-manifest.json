@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.10cb89bd.chunk.css",
-  "main.js": "/static/js/main.286f53dc.chunk.js",
-  "main.js.map": "/static/js/main.286f53dc.chunk.js.map",
+  "main.js": "/static/js/main.2953624b.chunk.js",
+  "main.js.map": "/static/js/main.2953624b.chunk.js.map",
   "static/js/1.206e060b.chunk.js": "/static/js/1.206e060b.chunk.js",
   "static/js/1.206e060b.chunk.js.map": "/static/js/1.206e060b.chunk.js.map",
   "static/js/2.00d30d3b.chunk.js": "/static/js/2.00d30d3b.chunk.js",
@@ -12,9 +12,9 @@
   "static/media/BreakingBad.png": "/static/media/BreakingBad.01fd59dc.png",
   "static/media/Quiz.png": "/static/media/Quiz.9dfcb23e.png",
   "static/media/hotel.png": "/static/media/hotel.def1ac06.png",
-  "static/media/annika.jpg": "/static/media/annika.dcbc0ae5.jpg",
+  "static/media/annika.png": "/static/media/annika.dcbc0ae5.png",
   "static/css/main.10cb89bd.chunk.css.map": "/static/css/main.10cb89bd.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c2e702475180f30d77904e9dd8dc57ef.js": "/precache-manifest.c2e702475180f30d77904e9dd8dc57ef.js",
+  "precache-manifest.9d12f723e845d931d6d6a113df11fe46.js": "/precache-manifest.9d12f723e845d931d6d6a113df11fe46.js",
   "service-worker.js": "/service-worker.js"
 }
