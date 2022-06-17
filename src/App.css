@@ -37,6 +37,10 @@ h1{
   color: black;
 }
 
+h2{
+  text-align: left;
+}
+
 
 .flex-container{
   display: flex;
@@ -83,71 +87,56 @@ h1{
 /* image of app */
 
 .BeyondTravel{
-  width: 30%;
+  width: 20%;
   right: 10px;
-  margin-top: 0;
-  margin-right: 35rem;
+  margin-top: 30;
 }
 
-.link1{
-
+.project-links{
   font-size: 1.5rem;
-  text-align: center;
-
+  font-family: 'Playfair Display', serif; 
 }
-
-
 
 
 .BreakingBad{
   border-radius: 5%;
   width: 40%;
-  right: 10px;
   margin-top: 30px;
-  
-}
-
-.BreakingBad > p{
-  font-family: "BreakingBad";
 }
 
 /* image of app */
 .Quiz{
   border-radius: 5%;
-  width: 40%;
+  width: 30%;
   margin-top: 30px;
-  font-family: "Wizard1";
 }
 
 .Hotel{
   border-radius: 5%;
   width: 40%;
-  margin-top: 30px;
-  font-family: "California";
-}
-
-.Hotel > p{
-  font-family: "California";
+  height: 20%;
+  margin-top: 5rem;
 }
 
 .annika{
   border-radius: 5%;
   width: 50%;
   right: 10px;
-  margin-top: 300px;
+  margin-top: 5rem;
 }
 
 .about {
   text-align: justify;  
   padding: 8px;
-  width: 700px; 
+  width: 500px; 
   height: auto;
+  font-size: 1.25rem;
   
 }
 
 .Footer{
   background-color: #FADCD9;
-  font-size: 10px;
+  font-size: 1rem;
   position: fixed;
   bottom: 0%;
   width: 100%;
@@ -169,6 +158,7 @@ background-color: #F9F1F0;
 background-color: #FADCD9;
 }
 
+
 a:link{
   text-decoration: none;
 }
@@ -182,17 +172,3 @@ a:active{
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Wizard1";
-  src: url('/src/fonts/Wizard1.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: "California";
-  src: url('/src/fonts/California.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: "BreakingBad";
-  src: url('/src/fonts/BreakingBad.otf');
-}

@@ -5,13 +5,14 @@ const About = () =>{
 
 
     return(
-        
+        <main>
+        <h2>Get to know me</h2>
         <div className="flex-about">
         <div><img className="annika" src={require("../static/annika.png")} alt='annika in a black jacket with her white cat on her shoulder.'/></div>
-
+        {/* <main> */}
         <div className="about">
-        <main>
-        <h2>Get to know me</h2><p>I've always liked being creative. I was involved with Web Development in my previous job, 
+        {/* <main> */}
+        <p>I've always liked being creative. I was involved with Web Development in my previous job, 
         and I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued with coding.</p>
         <p>A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint,
         which works with a microprocessor. Knowing that someone wrote the software 
@@ -31,13 +32,13 @@ const About = () =>{
         <h3>What I enjoy besides coding</h3>
        <p>Riding my Vespa motorscooter, practising my British Sign Language Skills (Level 2), attending Star Trek/ Comic Conventions, Film Festivals, 
         spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
-        </main>
+        {/* </main> */}
         </div>
         
-        </div>
-        
-    )
+        </div>   
+                </main>
 
+    )
 }
 
 export default About;
