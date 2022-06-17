@@ -6,7 +6,6 @@ const Header = () => {
 
     return (
         <div className="header">
-        
             <nav>
                 <ul>
                     <li>
@@ -16,9 +15,11 @@ const Header = () => {
                     <li>
                     <a href="https://www.linkedin.com/in/annika-neumann-422b98232/"><img className="linkedin" src={require("../images/linkedin.png")} alt='LinkedIn'/></a>
                     </li>
+                    <li>
+                    <h1>Hello, my name is Annika Neumann<br></br>Life between Coding and Cats</h1>
+                    </li>
                 </ul>
             </nav>
-           
             </div>
 
         

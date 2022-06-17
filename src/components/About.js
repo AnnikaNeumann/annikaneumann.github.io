@@ -8,9 +8,9 @@ const About = () =>{
         
         <div className="flex-about">
         <div><img className="annika" src={require("../static/annika.png")} alt='annika in a black jacket with her white cat on her shoulder.'/></div>
-        <main>
-        <div className="about">
 
+        <div className="about">
+        <main>
         <h2>Get to know me</h2><p>I've always liked being creative. I was involved with Web Development in my previous job, 
         and I took the leap of faith in 2021 when my partner (a Software Developer) got me intrigued with coding.</p>
         <p>A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint,
@@ -21,7 +21,7 @@ const About = () =>{
         both front and backend development. 
         I have taken the CodeClan journey to change my career and be challenged by various new opportunities.</p>
         <p>I was born in Germany and lived in the beautiful Black Forest region, which (prepare yourself for a fun fact!) 
-        is known for the <a href="https://www.atlasobscura.com/places/worlds-largest-cuckoo-clock">World's largest Cuckoo Clock</a> and the Black Forest Gateau! For the past 20 years, I have worked in different roles within
+        is known for the <a href="https://www.atlasobscura.com/places/worlds-largest-cuckoo-clock" aria-label="World's largest Cuckoo Clock">World's largest Cuckoo Clock</a> and the Black Forest Gateau! For the past 20 years, I have worked in different roles within
         the health sector in Germany and Switzerland. 
         These provided me with excellent interpersonal skills and the discipline to work within deadlines. These roles also required creative 
         thinking and quick problem-solving.</p><p>However, I always knew that I wanted to live in other places, and so Ireland became my home from 2006-to 2007.
@@ -31,8 +31,9 @@ const About = () =>{
         <h3>What I enjoy besides coding</h3>
        <p>Riding my Vespa motorscooter, practising my British Sign Language Skills (Level 2), attending Star Trek/ Comic Conventions, Film Festivals, 
         spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
-        </div>
         </main>
+        </div>
+        
         </div>
         
     )

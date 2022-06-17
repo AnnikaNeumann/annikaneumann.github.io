@@ -81,6 +81,24 @@ h1{
 
 
 /* image of app */
+
+.BeyondTravel{
+  width: 30%;
+  right: 10px;
+  margin-top: 0;
+  margin-right: 35rem;
+}
+
+.link1{
+
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+
+
+
 .BreakingBad{
   border-radius: 5%;
   width: 40%;
