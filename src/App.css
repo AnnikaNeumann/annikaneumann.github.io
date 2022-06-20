@@ -2,9 +2,13 @@
   text-align: center;
   background-color: #F9F1F0;
   font-family: 'Playfair Display', serif; 
-  /* font-size: 18px; */
   font-size: 1vw;
   padding-top: 1px;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
 }
 
 .header{
@@ -19,16 +23,16 @@ li {
 
 /* icon in header */
 .github{
-  height: 50px;
-  width: 50px;
+  height: 4%;
+  width: 4%;
   float:left;
   margin-top: 10px;
 }
 /* icon in header */
 .linkedin{
 
-  height: 50px;
-  width: 50px;
+  height: 4%;
+  width: 4%;
   float:left;
   margin-left: 10px;
   margin-top: 10px;
@@ -36,57 +40,59 @@ li {
 
 h1{
   color: black;
+  font-size: 3vw;
 }
 
 h2{
   text-align: left;
+  font-size: 2vw;
+
+
 }
 
-
+/* project component */
 .flex-container{
   display: flex;
-  /* justify-content:center; */
   flex-direction:column;
   font-family: 'Playfair Display', serif; 
-  /* font-size: 18px; */
   font-size: 1vw;
 
 }
-
-.flex-container > div{
+/* project component */
+.flex-projects > div{
   width: auto;
   height: auto;
+  
 }
 
 /* About.js */
 .flex-about{
   display: flex;
   justify-content: space-between;
-  flex-direction:row-reverse;
   float: left;
+
 }
 /* about.js */
 .about {
   text-align: justify;  
-  padding: 8px;
-  width: 100%; 
+  padding: 10px;
   height: auto;
-  /* font-size: 1.25rem; */
-  font-size: 1vw;
-  float: left;
-    /* added float left for trial and error */
+  font-size: 1.5vw;
+  /* float: left; */
+  width: auto;
+  
 
 }
-
 /* profile image */
-.flex-about > div{
-  width: 100%;
-  height: auto;
+.annika{
+  border-radius: 5%;
+  width: 10%;
+  right: 10px;
   float: left;
-  /* added float left for trial and error */
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  padding-right: 3rem;
 }
-
-
 
 /* Responsive layout  - one column layout instead of a two-column layout */
 @media (max-width: 800px) {
@@ -97,20 +103,17 @@ h2{
 } 
 
 @media (max-width: 800px) {
-  .flex-about {
+  .about {
     flex-direction: column;
     width: 100%;
   }
 } 
 
 
-
-
 /* image of app */
 
 .BeyondTravel{
-  width: 20%;
-  right: 10px;
+  width: 15%;
   margin-top: 30;
 }
 
@@ -122,36 +125,26 @@ h2{
 
 .BreakingBad{
   border-radius: 5%;
-  width: 40%;
-  margin-top: 30px;
+  width: 25%;
+  margin-top: 2rem;
 }
 
 /* image of app */
 .Quiz{
   border-radius: 5%;
-  width: 30%;
-  margin-top: 30px;
+  width: 20%;
+  margin-top: 2rem;
 }
 
 .Hotel{
   border-radius: 5%;
   width: 40%;
-  height: 20%;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
-
-.annika{
-  border-radius: 5%;
-  width: 50%;
-  right: 10px;
-  margin-top: 5rem;
-}
-
 
 
 .Footer{
   background-color: #FADCD9;
-  /* font-size: 1rem; */
   font-size: 0.5vw;
   position: fixed;
   bottom: 0%;
@@ -159,20 +152,6 @@ h2{
   text-align: center;
 }
 
-/* Split the screen in half */
-/* .split {
-  width: 100%;
-  padding-top: 20px;
-} */
-
-/* Control the left side */
-/* .left {
-background-color: #F9F1F0;
-}
-
-.right {
-background-color: #FADCD9;
-} */
 
 
 a:link{

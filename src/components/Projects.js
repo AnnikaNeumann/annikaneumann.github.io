@@ -1,17 +1,13 @@
 import React from 'react';
-import Footer from './Footer';
 const Projects = () =>{
 
 
     return(
         <>
         <aside>
-
-        <div className="split right">
         <h1>Take a sneak peak into my recent projects</h1>
-        {/* <h2>This website is (not yet) accessible via Screen Reader</h2> */}
-        <br></br><br></br>
-        <div className="flex-container">
+        <br></br>
+        <div className="flex-projects">
 
         <div className='project-links'>
         <a href='https://github.com/AnnikaNeumann/BeyondTravelling' aria-label='Beyond Travelling App'>Beyond Travelling - Your source for accessible accommodation in the UK</a>
@@ -45,7 +41,6 @@ const Projects = () =>{
         </div>
         <br></br><br></br>
 
-        </div>
         </div>
         </aside>
         </>

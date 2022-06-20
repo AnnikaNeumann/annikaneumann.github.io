@@ -18,9 +18,14 @@ const Header = () => {
                     <li>
                     <h1>Hello, my name is Annika Neumann<br></br>Life between Coding and Cats</h1>
                     </li>
+                    <li>
+                    <div><img className="annika" src={require("../static/annika.png")} alt='annika in a black jacket with her white cat on her shoulder.'/></div>
+
+                    </li>
                 </ul>
             </nav>
             </div>
+
 
         
     )
