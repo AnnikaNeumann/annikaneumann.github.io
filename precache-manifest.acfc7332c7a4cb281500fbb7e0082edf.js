@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "f5981922304d859c6629",
-    "url": "/static/css/main.290ccb41.chunk.css"
+    "revision": "9caf682b63b5dddcc133",
+    "url": "/static/css/main.b3181275.chunk.css"
   },
   {
-    "revision": "f5981922304d859c6629",
+    "revision": "9caf682b63b5dddcc133",
     "url": "/static/js/main.97869a1f.chunk.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/hotel.def1ac06.png"
   },
   {
-    "revision": "0dd178cfbf83753ff221843cda6d22f3",
+    "revision": "f04838a9ced810e42778819d1823a21d",
     "url": "/index.html"
   }
 ];
