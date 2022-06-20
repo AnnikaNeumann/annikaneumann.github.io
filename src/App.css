@@ -11,10 +11,11 @@ body{
   height: 100vh;
 }
 
-.header{
+header >h1{
   text-align: center;
-  background-color: #FADCD9;
+  /* background-color: #FADCD9; */
   width: 100%;
+  text-transform:uppercase;
 }
 
 li {
@@ -76,34 +77,41 @@ h2{
 .about {
   text-align: justify;  
   padding: 10px;
+  margin: 255px 0;
+  margin-bottom: 3rem;
   height: auto;
-  font-size: 1.5vw;
+  font-size: 2vw;
   /* float: left; */
   width: auto;
   
-
 }
+
+
 /* profile image */
 .annika{
   border-radius: 5%;
-  width: 10%;
+  width: 20%;
   float: left;
   margin-bottom: 1rem;
-  padding-right: 1rem;
+  margin-left: 28rem;
+
 }
 
 /* Responsive layout  - one column layout instead of a two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
+  .flex-projects {
+    /* flex-direction: column; */
     width: 100%;
+    flex-basis: 90%;
+  
   }
 } 
 
 @media (max-width: 800px) {
   .about {
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
+    flex-basis: 75%;
   }
 } 
 
@@ -112,7 +120,7 @@ h2{
 
 .BeyondTravel{
   width: 15%;
-  margin-top: 30;
+  margin-top: 2vh;
 }
 
 .project-links{
@@ -124,20 +132,21 @@ h2{
 .BreakingBad{
   border-radius: 5%;
   width: 25%;
-  margin-top: 2rem;
+  margin-top: 2vh;
 }
 
 /* image of app */
 .Quiz{
   border-radius: 5%;
   width: 20%;
-  margin-top: 2rem;
+  margin-top: 2vh;
 }
 
 .Hotel{
   border-radius: 5%;
   width: 40%;
-  margin-top: 2rem;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
 }
 
 
@@ -150,7 +159,10 @@ h2{
   text-align: center;
 }
 
-
+hr{
+  width: 80%;
+  border-top: 1px solid grey;
+}
 
 a:link{
   text-decoration: none;

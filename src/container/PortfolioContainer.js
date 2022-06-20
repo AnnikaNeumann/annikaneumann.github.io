@@ -13,8 +13,12 @@ const PortfolioContainer = () =>{
     return(
         <>
         <Header/>
+    <main>
         <About/>
+        <hr/>
         <Projects/>
+        <hr/>
+        </main>
         <Footer/>
         </> 
 
