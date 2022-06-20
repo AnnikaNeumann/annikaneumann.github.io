@@ -9,7 +9,7 @@
 .header{
   text-align: center;
   background-color: #FADCD9;
-
+  width: 100%;
 }
 
 li {
@@ -128,7 +128,7 @@ h2{
 .about {
   text-align: justify;  
   padding: 8px;
-  width: 500px; 
+  width: 100%; 
   height: auto;
   font-size: 1.25rem;
   
