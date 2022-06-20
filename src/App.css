@@ -87,11 +87,9 @@ h2{
 .annika{
   border-radius: 5%;
   width: 10%;
-  right: 10px;
   float: left;
-  margin-top: 0rem;
   margin-bottom: 1rem;
-  padding-right: 3rem;
+  padding-right: 1rem;
 }
 
 /* Responsive layout  - one column layout instead of a two-column layout */

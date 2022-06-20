@@ -19,7 +19,7 @@ const About = () =>{
         both front and backend development. 
         I have taken the CodeClan journey to change my career and be challenged by various new opportunities.</p>
         <p>I was born in Germany and lived in the beautiful Black Forest region, which (prepare yourself for a fun fact!) 
-        is known for the <a href="https://www.atlasobscura.com/places/worlds-largest-cuckoo-clock" aria-label="World's largest Cuckoo Clock">World's largest Cuckoo Clock</a> and the Black Forest Gateau! For the past 20 years, I have worked in different roles within
+        is known for the <a href="https://www.atlasobscura.com/places/worlds-largest-cuckoo-clock" aria-label="World's largest Cuckoo Clock" target="_blank">World's largest Cuckoo Clock</a> and the Black Forest Gateau! For the past 20 years, I have worked in different roles within
         the health sector in Germany and Switzerland. 
         These provided me with excellent interpersonal skills and the discipline to work within deadlines. These roles also required creative 
         thinking and quick problem-solving.</p><p>However, I always knew that I wanted to live in other places, and so Ireland became my home from 2006-to 2007.
@@ -30,7 +30,6 @@ const About = () =>{
        <p>Riding my Vespa motorscooter, practising my British Sign Language Skills (Level 2), attending Star Trek/ Comic Conventions, Film Festivals, 
         spending time in nature, and fostering rescue cats in need of a new furrever home.</p>
         </div>
-        {/* <div><img className="annika" src={require("../static/annika.png")} alt='annika in a black jacket with her white cat on her shoulder.'/></div> */}
 
     </main>
 
