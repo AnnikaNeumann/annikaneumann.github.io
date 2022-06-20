@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "60010d3383ee0f6cd0c8",
-    "url": "/static/css/main.bd6142fd.chunk.css"
+    "revision": "a0668e1447d1aa021220",
+    "url": "/static/css/main.98ce212b.chunk.css"
   },
   {
-    "revision": "60010d3383ee0f6cd0c8",
-    "url": "/static/js/main.3cefe95c.chunk.js"
+    "revision": "a0668e1447d1aa021220",
+    "url": "/static/js/main.86ada4fc.chunk.js"
   },
   {
     "revision": "31b6faa5ac5540836e4f",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin.d492efc7.png"
   },
   {
+    "revision": "dcbc0ae54a2b7fabf1ff9600ce6c86a7",
+    "url": "/static/media/annika.dcbc0ae5.png"
+  },
+  {
     "revision": "9b8a35bdb15ad6ca306ed5ca9a151041",
     "url": "/static/media/BeyondTravelLogo.9b8a35bd.png"
   },
@@ -40,11 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/hotel.def1ac06.png"
   },
   {
-    "revision": "dcbc0ae54a2b7fabf1ff9600ce6c86a7",
-    "url": "/static/media/annika.dcbc0ae5.png"
-  },
-  {
-    "revision": "6e588ab6d55d4300b884e0b3c423f081",
+    "revision": "9ef08e74aefbbd302292c39777029756",
     "url": "/index.html"
   }
 ];
