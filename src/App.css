@@ -60,7 +60,7 @@ h2{
   display: flex;
   flex-direction:column;
   font-family: 'Playfair Display', serif; 
-  font-size: 1vw;
+  font-size: 1.4rem;
 
 }
 /* project component */
@@ -84,7 +84,7 @@ h2{
   margin: 1rem 0;
   margin-bottom: 3rem;
   height: auto;
-  font-size: 2vw;
+  font-size: 1.4rem;
   /* float: left; */
   width: auto;
   
@@ -94,10 +94,11 @@ h2{
 /* profile image */
 .annika{
   border-radius: 5%;
-  width: 20%;
+  width: 15%;
   float: left;
   position:sticky;
   padding-bottom: 2%;
+  padding-right: 2%;
   margin-left: 1rem;
 }
 
@@ -105,9 +106,24 @@ h2{
 @media (max-width: 800px) {
   .flex-projects {
     /* flex-direction: column; */
-    width: 90%;  
+    width: 100%; 
+    height: auto; 
   }
 } 
+
+@media (max-width:800px){
+  .flex-container{
+    width: 90%;
+  }
+}
+
+@media(max-width: 800px){
+  .project-links{
+    width: 90%;
+    font-size: 0.5rem;
+  }
+}
+
 
 @media (max-width: 800px) {
   .about {
