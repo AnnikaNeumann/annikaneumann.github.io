@@ -2,7 +2,8 @@
   text-align: center;
   background-color: #F9F1F0;
   font-family: 'Playfair Display', serif; 
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1vw;
   padding-top: 1px;
 }
 
@@ -47,7 +48,9 @@ h2{
   /* justify-content:center; */
   flex-direction:column;
   font-family: 'Playfair Display', serif; 
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1vw;
+
 }
 
 .flex-container > div{
@@ -60,24 +63,43 @@ h2{
   display: flex;
   justify-content: space-between;
   flex-direction:row-reverse;
+  float: left;
 }
-
-.flex-about > div{
-  width: 1000px;
+/* about.js */
+.about {
+  text-align: justify;  
+  padding: 8px;
+  width: 100%; 
   height: auto;
+  /* font-size: 1.25rem; */
+  font-size: 1vw;
+  float: left;
+    /* added float left for trial and error */
 
 }
+
+/* profile image */
+.flex-about > div{
+  width: 100%;
+  height: auto;
+  float: left;
+  /* added float left for trial and error */
+}
+
+
 
 /* Responsive layout  - one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+    width: 100%;
   }
 } 
 
 @media (max-width: 800px) {
   .flex-about {
     flex-direction: column;
+    width: 100%;
   }
 } 
 
@@ -125,18 +147,12 @@ h2{
   margin-top: 5rem;
 }
 
-.about {
-  text-align: justify;  
-  padding: 8px;
-  width: 100%; 
-  height: auto;
-  font-size: 1.25rem;
-  
-}
+
 
 .Footer{
   background-color: #FADCD9;
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 0.5vw;
   position: fixed;
   bottom: 0%;
   width: 100%;
@@ -144,19 +160,19 @@ h2{
 }
 
 /* Split the screen in half */
-.split {
+/* .split {
   width: 100%;
   padding-top: 20px;
-}
+} */
 
 /* Control the left side */
-.left {
+/* .left {
 background-color: #F9F1F0;
 }
 
 .right {
 background-color: #FADCD9;
-}
+} */
 
 
 a:link{
