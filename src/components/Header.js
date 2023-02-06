@@ -16,7 +16,7 @@ const Header = () => {
                     <a href="https://www.linkedin.com/in/annika-neumann-422b98232/" target="_blank" rel="noreferrer"><img className="linkedin" src={require("../images/linkedin.png")} alt='LinkedIn link'/></a>
                     </li>
                     <li>
-                    <h1>Annika Neumann<br></br>Life between Coding and Cats</h1>
+                    <h2 className="header" >Annika Neumann<br></br>Life between Coding and Cats</h2>
                     </li>
                     <li>
                     <div>

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #F9F1F0;
+  background-color: #edefef;
   font-family: 'Playfair Display', serif; 
   font-size: 1vw;
   padding-top: 1px;
@@ -15,11 +15,9 @@ body{
   height: 100vh;
 }
 
-header >h1{
+.header{
   text-align: center;
-  /* background-color: #FADCD9; */
   width: 100%;
-  text-transform:uppercase;
 }
 
 li {
@@ -28,33 +26,30 @@ li {
 
 /* icon in header */
 .github{
-  height: 4%;
-  width: 4%;
+  height: 2%;
+  width: 2%;
   float:left;
   margin-top: 10px;
 }
 /* icon in header */
 .linkedin{
 
-  height: 4%;
-  width: 4%;
+  height: 2%;
+  width: 2%;
   float:left;
   margin-left: 10px;
   margin-top: 10px;
 }
 
-h1{
-  color: black;
-  font-size: 3vw;
-}
-
 h2{
   text-align: left;
   font-size: 2vw;
-
-
+  color: black;
 }
 
+.project {
+  font-size: 2vw;
+}
 /* project component */
 .flex-container{
   display: flex;
@@ -84,10 +79,9 @@ h2{
   margin: 1rem 0;
   margin-bottom: 3rem;
   height: auto;
-  font-size: 1.4rem;
-  /* float: left; */
+  font-size: 1.7rem;
   width: auto;
-  
+  margin-right: 5%;
 }
 
 
@@ -151,7 +145,8 @@ h2{
 
 .project-links{
   font-family: 'Playfair Display', serif; 
-  font-size: 1.5rem;
+  font-size: 1.2vw;
+  padding-bottom: 2%;
 }
 
 
@@ -159,6 +154,7 @@ h2{
   border-radius: 5%;
   width: 25%;
   margin-top: 2vh;
+  
 }
 
 /* image of app */
@@ -177,12 +173,12 @@ h2{
 
 
 .Footer{
-  background-color: #FADCD9;
-  font-size: 0.5vw;
+  background-color: #EBE8E8;
+  font-size: 0.8vw;
   position: fixed;
   bottom: 0%;
   width: 100%;
-  padding-left: 15%;
+  text-align: center;
 }
 
 hr{

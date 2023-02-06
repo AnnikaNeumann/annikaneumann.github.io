@@ -5,7 +5,7 @@ const Projects = () =>{
     return(
         <>
         <aside>
-        <h1>Take a sneak peak into my recent projects</h1>
+        <p className='project'>Take a sneak peak into my recent projects</p>
         <br></br>
         <div className="flex-projects">
 
