@@ -1,0 +1,48 @@
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    padding-top: 90px;
+    color: azure;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    font-weight:700;
+    color: azure;
+
+}
+
+.construction{
+    background-size: cover;
+    height: 100vh;
+    margin-top: -70px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+ul{
+    margin-left: 45%;
+    margin-top: 120px;
+    
+}
+
+.github{
+    height: 5%;
+    width: 5%;
+    float:left;
+    /* padding: 20px; */
+ 
+  }
+  /* icon in header */
+  .linkedin{
+  
+    height: 5%;
+    width: 5%;
+    float:left;
+    padding-left: 40px;
+ 
+  }

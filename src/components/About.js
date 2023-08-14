@@ -8,7 +8,7 @@ const About = () =>{
           <main>
             <section className="about">
             <div>
-                    <img tabIndex='0' className="annika" src={require("../static/annika.png")} alt='annikas hair is blonde and she wears a black jacket. On her shoulder is a white cat.'/>
+                    <img className="annika" src={require("../static/annika.png")} alt='Annika has blonde hair and she wears a black jacket. On her shoulder is a white cat.'/>
                     </div>
               <h2 tabIndex='0'>Get to know me</h2>
               <p tabIndex='0'>
