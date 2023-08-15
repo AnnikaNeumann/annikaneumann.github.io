@@ -1,21 +1,21 @@
 {
-  "main.css": "/static/css/main.b298a17a.chunk.css",
-  "main.js": "/static/js/main.7068954e.chunk.js",
-  "main.js.map": "/static/js/main.7068954e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.bb5fe24d.js",
-  "runtime~main.js.map": "/static/js/runtime~main.bb5fe24d.js.map",
-  "static/js/2.ab3286e4.chunk.js": "/static/js/2.ab3286e4.chunk.js",
-  "static/js/2.ab3286e4.chunk.js.map": "/static/js/2.ab3286e4.chunk.js.map",
-  "static/js/3.c70b6b5b.chunk.js": "/static/js/3.c70b6b5b.chunk.js",
-  "static/js/3.c70b6b5b.chunk.js.map": "/static/js/3.c70b6b5b.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.9c09fd46f9487f5fdfc922985937b435.js": "/precache-manifest.9c09fd46f9487f5fdfc922985937b435.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.b298a17a.chunk.css.map": "/static/css/main.b298a17a.chunk.css.map",
-  "static/media/BeyondTravelLogo.png": "/static/media/BeyondTravelLogo.9b8a35bd.png",
-  "static/media/BreakingBad.png": "/static/media/BreakingBad.01fd59dc.png",
-  "static/media/Quiz.png": "/static/media/Quiz.9dfcb23e.png",
-  "static/media/annika.png": "/static/media/annika.dcbc0ae5.png",
-  "static/media/hotel.png": "/static/media/hotel.def1ac06.png",
-  "static/media/linkedin.png": "/static/media/linkedin.d492efc7.png"
+  "files": {
+    "main.css": "/static/css/main.6e049f54.css",
+    "main.js": "/static/js/main.3138d82d.js",
+    "static/js/787.47dbe060.chunk.js": "/static/js/787.47dbe060.chunk.js",
+    "static/media/BreakingBad.png": "/static/media/BreakingBad.ae9d7f9ca1f90faf96da.png",
+    "static/media/Quiz.png": "/static/media/Quiz.6648be55dc0df5dc7fe9.png",
+    "static/media/Space.jpeg": "/static/media/Space.f4f66d238fdb86c59c78.jpeg",
+    "static/media/annika.png": "/static/media/annika.b55e1d824b9430656371.png",
+    "static/media/BeyondTravelLogo.png": "/static/media/BeyondTravelLogo.d0a4add998b36440080e.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/index.html",
+    "main.6e049f54.css.map": "/static/css/main.6e049f54.css.map",
+    "main.3138d82d.js.map": "/static/js/main.3138d82d.js.map",
+    "787.47dbe060.chunk.js.map": "/static/js/787.47dbe060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e049f54.css",
+    "static/js/main.3138d82d.js"
+  ]
 }
