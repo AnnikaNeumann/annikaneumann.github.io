@@ -1,31 +1,51 @@
 
-.project {
-    font-size: 2vw;
+/* Styles for desktop screens */
+.flex-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-links {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #f5f5f5;
+}
+
+.project-links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project-links img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .flex-projects {
+    flex-direction: column;
+    align-items: center;
   }
-  /* project component */
-  .flex-container{
-    display: flex;
-    flex-direction:column;
-    font-family: 'Outfit', sans-serif;  font-size: 1vw;
-    font-size: 1.4rem;
+
+  .project-links {
+    width: 90%;
+  }
+
+  .project-links a {
+    font-size: 16px;
+  }
+}
+
   
-  }
-  /* project component */
-  .flex-projects > div{
-    width: 100%;
-    height: auto;
-    
-  }
-  
-  .container{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items:center;
-    flex-wrap: wrap;
-    align-content: space-between;
-  
-  }
 
   
   
