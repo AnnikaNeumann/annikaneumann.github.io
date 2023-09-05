@@ -1,51 +1,46 @@
-import React from "react";
-
+import React from 'react'
+import '../components/css/About.css';
 
 const About = () =>{
 
-    
-        return (
-          <main>
-            <section className="about">
-            <div>
-                    <img className="annika" src={require("../static/annika.png")} alt='Annika has blonde hair and she wears a black jacket. On her shoulder is a white cat.'/>
-                    </div>
-              <h2 tabIndex='0'>Get to know me</h2>
-              <p tabIndex='0'>
-                I was born in Germany and lived in the beautiful Black Forest region until
-                I moved to Scotland in 2016. I worked for the NHS until February 2022 in administrative roles.
-                However, I've always liked being creative, and I was involved with Web Development in my previous job.
-                <br></br><br></br>
-                I took the leap of faith in 2021 when my friend (a Software Developer) got me intrigued with coding.
-                A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint,
-                which works with a microprocessor. Knowing that someone wrote the software controlling my leg gave me an incredible sense of wonder.
-                The endless possibilities and instant visual changes sparked my interest in frontend development.
-                <br></br><br></br>
-                I joined CodeClan to become a Developer myself. Since August 2022, I have been working as a Junior Talend Engineer for a Finance Company in Edinburgh.
-                I mainly work with SQL and Oracle Databases in combination with the ETL Tool Talend.
-                <br></br><br></br>
-                Being passionate and driven about Accessibility and inclusive Design, UI Research, I would love to be part of a team that makes the web content available for everyone. 
-                My future goal is to become a member of the IAAP to pass the exam for the core competencies.
-                <br></br><br></br>
-                I am currently undertaking following courses to expand my knowledge:
-                <br></br><br></br>
-                "Introduction to Web Accessibility" by WC3 / edx website ( completed and passed) <br></br>
-                "Accessibility Fundamentals - Disabilities, Guidelines, and Laws" by deque University
-                <br></br>
-                (updated on 27rd June 2023)
-                
-              </p>
-              <h3 tabIndex='0'>What I enjoy in my offline time</h3>
-              <p tabIndex='0'>
-                Riding my Vespa motorscooter or reading gory novels about forensic pathology and horror. I love everything movie related from going to the cinema, to attending 
-                Star Trek or Comic Conventions and Film Festivals. I love spending time in nature and at the beach. I am also involved voluntarily in the Foodsharing 
-                community of Edinburgh. Because I am not using actual programming languages in my daily workload,
-                I'm always aiming to keep my JavaScript/React knowledge up to date with little side projects and looking into courses online.
-              </p>
-            </section>
-          </main>
-        );
-      }
-    
+    return (
+        <main>
+          <section className="about">
+          <div>
+                  <img className="annika" src={require("../static/annika.png")} alt='Annika has blonde hair and she wears a black jacket. On her shoulder is a white cat.'/>
+                  </div>
+            <h1 tabIndex='0'>Welcome</h1>
+            <p tabIndex='0'>I was born in Germany and lived in the beautiful Black Forest region until I moved to Edinburgh in 2016. It was the love for Scotland, its dramatic landscapes,<br></br>
+            tartan tales, dashing kilted Highlanders and standing stones (which may or may not let you go through them, in case you were having some gemstones in your possession).
+            My following 5.5 years were spent in the NHS, a world of bustling corridors and organized chaos, donning the hat of administration until February 2022. I took the leap of faith in 2021<br></br>
+            when my friend (a Software Developer) got me intrigued with coding. A couple of years ago, I became interested in technology due to my amputation and the need to use an electronic knee joint. <br></br>
+            The software that orchestrates my moves is a masterpiece in itself. Knowing that someone wrote the software controlling my leg gave me an incredible sense of wonder.<br></br>
+            <br></br>
+            The year 2022 was a turning point for me career wise. An endeavor ignited by a friend, a Software Developer, whose intrigue for coding sparked the embers of curiosity within me. 
+            The endless possibilities and instant visual changes sparked my interest in Frontend development. It captivates me due to its potential to create accessible and inclusive digital spaces from scratch.<br></br>
+            I took the leap of faith and joined CodeClan in Edinburgh to become a Developer myself. Since August 2022, I have been working as a Junior Talend Engineer for a Finance Company in Edinburgh. <br></br>
+            My journey has been a dynamic exploration of SQL and Oracle Databases, intricately woven together with the ETL Tool Talend.</p>
+            <br></br><br></br>
+            
+            <h2 tabIndex='0' >My offline time</h2>
+            
+            <p tabIndex='0'> Cruising on my Vespa or diving into grisly novels that explore the realm of forensic pathology and horror are where my interests converge.<br></br>
+            My heart beats for all things cinema, whether it's catching a flick at the theatre, immersing myself in the world of Star Trek or Comic Conventions,<br></br>
+            or basking in the reel magic of Film Festivals. The call of nature and the beach hold a special place in my heart, offering peaceful moments away from the hustle of Edinburgh.<br></br>
+            I'm a proud member of Edinburgh's Foodsharing circle as I find joy in contributing my time voluntarily. Recently I became a Tech Volunteer with AbilityNet, <br></br>
+            to support older people and people with disabilities to access technology at home.<br></br>
+            In the realm of work, though programming languages may not be my daily play, I keep up with tech stack by practising JavaScript/React, and exploring online courses<br></br>
+            that delve into the broad topic of web accessibility or learning how to use Wordpress and PHP which is a lot of fun.<br></br>
+            From the thrilling road on my Vespa to the eerie pages of my novels, from the vivid tapestry of cinema to the tranquil embrace of nature, every facet of my life resonates with the symphony of passion and engagement.
+            </p>
+          </section>
+        </main>
+      );
+    }
+
+
+
+
+
 
 export default About;

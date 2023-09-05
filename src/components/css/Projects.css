@@ -1,0 +1,31 @@
+
+.project {
+    font-size: 2vw;
+  }
+  /* project component */
+  .flex-container{
+    display: flex;
+    flex-direction:column;
+    font-family: 'Outfit', sans-serif;  font-size: 1vw;
+    font-size: 1.4rem;
+  
+  }
+  /* project component */
+  .flex-projects > div{
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items:center;
+    flex-wrap: wrap;
+    align-content: space-between;
+  
+  }
+
+  
+  

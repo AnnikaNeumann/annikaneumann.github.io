@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import '../App.css';
 import Header from '../components/Header';
-import Projects from '../components/Projects';
-import About from '../components/About';
 import Footer from '../components/Footer';
+import Navigation from '../components/Navigation';
 
  
 
@@ -12,15 +11,11 @@ const PortfolioContainer = () =>{
    
     return(
         <>
+        <Navigation/>
         <Header/>
-    <main>
-        <About/>
-        <hr/>
-        <Projects/>
-        <hr/>
-        </main>
+
         <Footer/>
-        </> 
+    </>
 
     )
 }

@@ -1,0 +1,40 @@
+/* image of app */
+
+.BeyondTravel{
+    width: 15%;
+    margin-top: 2vh;
+  }
+  
+  .project-links{
+    font-family: 'Outfit', sans-serif;    font-size: 1.2vw;
+    padding-bottom: 2%;
+  }
+  
+  
+  .BreakingBad{
+    border-radius: 5%;
+    width: 25%;
+    margin-top: 2vh;
+    
+  }
+  
+  /* image of app */
+  .Quiz{
+    border-radius: 5%;
+    width: 20%;
+    margin-top: 2vh;
+  }
+
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+} 

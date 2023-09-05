@@ -1,0 +1,15 @@
+.pdf_button{
+    font-size: 1rem;
+    border-radius: 20px;
+    /* padding: 1% 2% 1% 1%; */
+    /* margin-top: 3%; */
+    background-color: rgb(164, 201, 153);
+}
+
+.pdf_button a:hover {
+    color: lightgray;
+
+}
+.pdf_button a:focus{
+    color: aquamarine;
+}               
