@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Navigation from '../components/Navigation';
 
 
 const Header = () => {
@@ -6,8 +7,7 @@ const Header = () => {
 
     return (
         <div className="header">
-                
-                    <h2 tabIndex='0' className="header_as">Live between coding and cats</h2>
+                    <Navigation/>
                     </div>                    
         
     )

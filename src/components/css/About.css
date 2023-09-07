@@ -1,0 +1,62 @@
+/* Base styles */
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:black;
+  }
+  
+  
+  .annika {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* margin-top: 10%; */
+  }
+  
+  .text-container {
+    padding: 1px;
+    font-size: 16px; 
+  }
+
+  p {
+    color: black;
+    margin: 0; /* Remove default margins to avoid excessive space */
+    line-height: 1.6; 
+    text-align: justify; 
+  }
+
+  h1{
+    color: black;
+    margin-top: 2%;
+  }
+
+  h2 +p {
+    margin-top: 10px;
+  }
+
+  
+  
+  /* Media query for mobile devices (max-width: 600px) */
+  @media (max-width: 600px) {
+    .text-container {
+      text-align: block;
+      font-size: 16px; /* Adjust the font size for mobile devices */
+      padding: 10px; /* Adjust padding for mobile devices */
+    }
+}
+  
+@media only screen and (max-width: 500px){
+
+  .annika{
+     width: auto;
+  }
+}
+  

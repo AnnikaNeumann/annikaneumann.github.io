@@ -7,7 +7,7 @@ const Projects = () =>{
     return(
         <>
         <section>
-        <p tabIndex= '0' className='project'>Take a sneak peak into a few projects</p>
+        <p tabIndex= '0' className='project'>Take a sneak peak into a few projects<br></br> and click on each project for more informaiton</p>
         <br></br>
         <div className="flex-projects">
 

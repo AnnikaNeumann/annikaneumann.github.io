@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: 'Outfit', sans-serif;  font-size: 1vw;
   padding-top: 1px;
 }
@@ -16,24 +15,6 @@ body{
 
 }
 
-.aboutshort {
-  text-align: justify;  
-  padding-left: 3%;
-  margin-top: 10rem;
-  height: auto;
-  font-size: 1.1rem;
-  width: auto;
-  color: black;
-  margin-right: 5%;
-  font-family: 'Outfit', sans-serif;  font-size: 1.5vw;
-
-}
-
-.header_as{
-  font-family: 'Outfit', sans-serif;  font-size: 3vw;
-  text-align: center;
-  padding-top: 5%;
-}
 
 /* profile image */
 .annika{

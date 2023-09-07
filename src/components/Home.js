@@ -34,14 +34,14 @@ const Home = () =>{
               <button className='pdf_button' tabIndex='0'onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}>Download my Cv</button>
               </div> */}
               <div>
-              <div className='item-2'>
+              {/* <div className='item-2'>
               <a href="https://github.com/AnnikaNeumann" tabIndex='0' target="_blank" rel="noreferrer"><img className="github" src={require("../images/github-sign.png")} alt='Link to Github'/>
               </a>
               </div>
               <div className='item-3'>
               <a href="https://www.linkedin.com/in/annika-neumann-422b98232/" tabIndex='0' target="_blank" rel="noreferrer"><img className="linkedin" src={require("../images/linkedin.png")} alt='Link to LinkedIn'/>
               </a>
-              </div>
+              </div> */}
               </div>
               </div>
             </section>

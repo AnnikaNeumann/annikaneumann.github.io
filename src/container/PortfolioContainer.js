@@ -11,7 +11,7 @@ const PortfolioContainer = () =>{
    
     return(
         <>
-        <Navigation/>
+        {/* <Navigation/> */}
         <Header/>
 
         <Footer/>
