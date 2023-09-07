@@ -16,18 +16,5 @@ body{
 }
 
 
-/* profile image */
-.annika{
-  /* border-radius: 25%; */
-  width: 20%;
-  float: left;
-  position:sticky;
-  padding-bottom: 2%;
-  padding-top: 0.5%;
-  padding-left: 15%;
-  padding-right: 2%;
-  margin-top: -5%;
-  /* margin-left: 1rem; */
-}
 
 

@@ -1,15 +1,46 @@
-.pdf_button{
-    font-size: 1rem;
-    border-radius: 20px;
-    /* padding: 1% 2% 1% 1%; */
-    /* margin-top: 3%; */
-    background-color: rgb(164, 201, 153);
-}
+/* 
+.pdf_button {
+    padding: 8px 16px;
+    font-size: 1.5rem; 
+    background-color: #c7c0c5;
+    color: rgb(38, 36, 36);
+    cursor: pointer;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border-color: white;
+  } */
 
-.pdf_button a:hover {
-    color: lightgray;
 
-}
-.pdf_button a:focus{
-    color: aquamarine;
-}               
+  /* Default button styles */
+/* Default button styles */
+.pdf_button {
+    display: inline-block;
+    margin-bottom: 10%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 16px; /* Default font size for normal screens */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  
+    /* Ensure adequate color contrast (WCAG AA) */
+    background-color: #007BFF;
+    color: #ffffff;
+  }
+  
+  /* Hover effect */
+  .pdf_button:hover,
+  .pdf_button:focus {
+    background-color: #0056b3; /* New background color on hover/focus */
+    color: #ffffff; /* New text color on hover/focus */
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 600px) {
+    .pdf_button {
+      font-size: 14px; /* Font size for mobile devices */
+    }
+  }
+  
+  

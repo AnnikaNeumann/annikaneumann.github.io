@@ -1,66 +1,71 @@
+/* Define styles for the section */
+.about {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
-.header{
-    text-align: center;
-    width: 100%;
-  }
-  
-  
-  .github{
-    height: 1%;
-    width: 1%;
-    /* margin-top: 10px; */
-  }
-  
-  .linkedin{
-  
-    height: 2px;
-    width: 2px;
-    /* margin-left: 290px;
-    margin-top: 10px; */
-  }
-  
-  @media (max-width: 600px){
-    .annika {
-      max-width: 300px; /* Adjust the maximum width for mobile devices */
-      margin-top: 0;
-    }
-  }
+/* Flex container for the image and text */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-.aboutshort {
-  text-align: center;  
-  padding-left: 3%;
-  margin-top: 10rem;
+/* Individual flex items */
+.flex-item {
+  margin-bottom: 20px;
+}
+
+.aboutshort{
+  font-size: 1rem;
+  text-align: block;
+  padding-bottom: 5%;
+}
+
+.annika {
+  border-radius: 50%;
+  max-width: 100px;
   height: auto;
-  font-size: 1.1rem;
-  width: auto;
-  color: black;
-  margin-right: 5%;
-  font-family: 'Outfit', sans-serif;  font-size: 1.5vw;
-} 
+}
 
-@media (max-width: 550px){
-  .aboutshort{  
-     text-align: center
-   } }
 
-  /* .image-container {
-    max-width: 400px;
-    margin-bottom: 20px;
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Style the social icons */
+.social-links a img {
+  max-width: 30px; /* Adjust the maximum width of the social icons */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .about {
+    padding: 40px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-item {
+    margin-bottom: 10px;
+  }
+  /* .pdf_button {
+    font-size: 12px;
+    margin-bottom: 5%;
   } */
+  .social-links {
+    flex-direction: row;
+  }
 
-    /* @media (max-width: 600px) {
-      .flex-projects {
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .project-links {
-        width: 80%;
-      }
-    
-      .project-links a {
-        font-size: 16px;
-      }
-    } */
+  .aboutshort{
+    text-align:block;
+    justify-content: space-between;
+  }
+}
 
-  
+
+

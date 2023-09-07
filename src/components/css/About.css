@@ -48,15 +48,9 @@
   @media (max-width: 600px) {
     .text-container {
       text-align: block;
-      font-size: 16px; /* Adjust the font size for mobile devices */
-      padding: 10px; /* Adjust padding for mobile devices */
+      font-size: 16px; 
+      padding: 10px;
     }
 }
-  
-@media only screen and (max-width: 500px){
 
-  .annika{
-     width: auto;
-  }
-}
   
