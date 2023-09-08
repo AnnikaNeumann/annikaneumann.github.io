@@ -37,12 +37,23 @@
   gap: 20px;
 }
 
-/* Style the social icons */
-.social-links a img {
-  max-width: 30px; /* Adjust the maximum width of the social icons */
+.social-links a:focus {
+  border: 1px solid #0d0d0e; /* Adjust the border style as needed */
 }
 
-/* Media query for responsiveness */
+.social-links a:hover {
+  border: 1px solid #0d0d0e; /* Adjust the border style as needed */
+}
+
+/* Style the social icons */
+.social-links a img {
+  max-width: 30px; 
+}
+
+
+
+
+
 @media (max-width: 600px) {
   .about {
     padding: 40px;
