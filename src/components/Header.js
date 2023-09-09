@@ -7,6 +7,7 @@ const Header = () => {
 
     return (
         <div className="header">
+
                     <Navigation/>
                     </div>                    
         

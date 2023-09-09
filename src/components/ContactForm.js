@@ -1,14 +1,23 @@
 import '../components/css/ContactForm.css';
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
+import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa'; // Import React icons
 
 
 const ContactForm = () => {
-
   const form = useRef();
+  const [isFormEmpty, setIsFormEmpty] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Check if the message field is empty
+    const messageField = form.current.querySelector('textarea[name="message"]');
+    if (!messageField || !messageField.value.trim()) {
+      setIsFormEmpty(true);
+      return;
+    }
+
     emailjs
       .sendForm(
         "React Contact Detail",
@@ -18,8 +27,10 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          alert('message sent successfully...');
-          console.log("message sent");
+          alert('Message sent successfully...');
+          console.log("Message sent");
+          setIsFormEmpty(false); // Reset the empty form flag
+          form.current.reset(); // Clear the form fields
         },
         (error) => {
           console.log(error.text);
@@ -27,23 +38,37 @@ const ContactForm = () => {
       );
   };
 
-
   return (
     <div>
-      <h1>Contact Form</h1>
-      <form className='cf' ref={form} onSubmit={sendEmail}>
-        <div className='half left cf'>
-          <input type='text' tabIndex='0' label='Full Name' placeholder='Full Name' name='user_name' />
-          <input type='email' tabIndex='0' label='Email address' placeholder='Email address' name='user_email' />
+    <h1>Contact Form</h1>
+    <form className='cf' ref={form} onSubmit={sendEmail}>
+      <div className='half left cf'>
+        <div className='input-icon'>
+          <FaUser /> 
+          <label htmlFor='user_name'>Full Name*</label>
+          <input type='text' tabIndex='0' placeholder='Full Name' name='user_name' required />
         </div>
-        <div className='half right cf'>
-          <textarea name='message' tabIndex='0' label='message' type='text' placeholder='Your Message'></textarea>
+        <div className='input-icon'>
+          <FaEnvelope /> 
+          <label htmlFor='user_email'>Email address*</label>
+          <input type='email' tabIndex='0' placeholder='Email address' name='user_email' required />
         </div>
-        <input type='submit' tabIndex='0' value='Submit' id='input-submit' />
-      </form>
-    </div>
+      </div>
+      <div className='half right cf'>
+        <div className='input-icon'>
+          <FaPhone /> 
+          <label htmlFor='message'>Your Message*</label>
+          <textarea name='message' tabIndex='0' type='text' placeholder='Your Message' required></textarea>
+        </div>
+        {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
+      </div>
+      <input type='submit' tabIndex='0' value='Submit' id='input-submit' />
+    </form>
+  </div>
   );
-}
-
+};
 
 export default ContactForm;
+
+
+

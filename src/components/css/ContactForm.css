@@ -1,4 +1,4 @@
-body {
+/* body {
     background: #f1f1f1;
     font-family: '', sans-serif;
     padding: 1em;
@@ -72,4 +72,64 @@ body {
   
   .cf:after {
     clear: both;
+  } */
+
+  input,
+  textarea {
+    border: 0;
+    outline: 1px;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Outfit', sans-serif;    
+    resize: none;
+    font-size: 1rem;
   }
+
+  /* Add styles for icon containers */
+.input-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the icons */
+.input-icon svg {
+  margin-right: 15px; /* Add some spacing between icon and input */
+}
+
+/* Style the submit button */
+#input-submit {
+  color: #333; /* Dark gray text color */
+  background: #e9c1f5; /* Light gray background */
+  cursor: pointer;
+  font-size: 18px; /* Larger font size */
+  padding: 0.5em 1em; /* Adjust padding for smaller button */
+  border-radius: 5%;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Add space between message field and name/email fields */
+.left input,
+.right textarea {
+  margin-top: 2em; /* Increase the margin for more space */
+}
+
+label[for="user_name"]:before,
+label[for="user_email"]:before,
+label[for="message"]:before {
+  content: '* ';
+  color: red;
+}
+/* Media query for smaller screens (adjust as needed) */
+@media (max-width: 600px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}

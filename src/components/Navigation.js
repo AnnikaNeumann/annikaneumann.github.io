@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(window.innerWidth <= 768);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -30,6 +30,8 @@ function Navigation() {
         <div className={`bar ${isOpen ? 'animate' : ''}`}></div>
         <div className={`bar ${isOpen ? 'animate' : ''}`}></div>
       </div>
+      <img className="logo" src={require("../static/CatLogo.png")} alt='Coding brackets with a title and a black cat on top of the letter'/>
+
       <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
         <li>
           <Link to="/">Home</Link>

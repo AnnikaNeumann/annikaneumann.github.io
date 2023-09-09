@@ -30,6 +30,10 @@
   height: auto;
 }
 
+.logo{
+	background: none !important;
+border: none !important;
+}
 
 .social-links {
   display: flex;

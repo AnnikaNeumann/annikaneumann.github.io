@@ -30,7 +30,6 @@
   transition: 0.3s;
 }
 
-/* Navigation links styles */
 .nav-links {
   list-style: none;
 }
@@ -48,13 +47,14 @@
 /* Active link styles */
 .nav-links a.active {
   font-weight: bold;
-  /* Add any other styles you want for the active link */
 }
 
-/* Media query for screens smaller than 768px */
+
 @media screen and (max-width: 768px) {
   .menu-icon {
-    display: flex; /* Make the menu icon visible on smaller screens */
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
   }
 
   .nav-links {
@@ -68,13 +68,13 @@
     transform: scaleY(0);
     transform-origin: top;
     transition: opacity 0.3s, transform 0.3s;
-    z-index: 1;
+    z-index: -1; /* Set the initial z-index to be lower */
   }
 
   .nav-links.show {
     opacity: 1;
     transform: scaleY(1);
-    z-index: 2;
+    z-index: 2; /* Increase z-index when the menu is open */
   }
 
   .nav-links li {

@@ -22,6 +22,7 @@ const Home = () =>{
           <section className="about">
   <div className="flex-container">
     <div className="flex-item">
+
       <img className="annika" src={require("../static/annika.png")} alt='Annika has blonde hair and she wears a black jacket. On her shoulder is a white cat.'/>
     </div>
     <div className="flex-item">
