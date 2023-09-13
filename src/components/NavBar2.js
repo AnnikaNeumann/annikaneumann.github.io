@@ -11,19 +11,30 @@ function NavBar2() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter" || event.key === "Space") {
+      handleClick();
+    }
+  };
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className="navbar" tabIndex='0'>
           <div className="navbar-container container" tabIndex='0' >
             <Link to="/" className="navbar-logo" tabIndex='0' onClick={closeMobileMenu}>
-              {/* <GiRocketThruster className="navbar-icon" /> */}
               Life between coding and cats
             </Link>
-            <div className="menu-icon" tabIndex='0' onClick={handleClick}>
+            <div 
+            className="menu-icon" 
+            tabIndex='0' 
+            onClick={handleClick}
+            onKeyDown={handleKeyPress} // Handle keyboard events
+            role="button"
+            >
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu"} tabIndex='0'>
               <li className="nav-item">
                 <NavLink
                   to="/" tabIndex='0'
@@ -63,7 +74,7 @@ function NavBar2() {
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
-                  onClick={closeMobileMenu}
+                  onClick={closeMobileMenu} 
                 >
                   Contact
                 </NavLink>
