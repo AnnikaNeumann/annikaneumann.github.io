@@ -6,11 +6,11 @@
   
   .navbar {
     background: #19191a;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -18,7 +18,7 @@
   
   .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 80px;
   }
   
@@ -139,5 +139,9 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
+    }
+
+    .navbar-container{
+      position: relative
     }
   }

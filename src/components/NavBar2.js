@@ -20,8 +20,8 @@ function NavBar2() {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <nav className="navbar" tabIndex='0'>
-          <div className="navbar-container container" tabIndex='0' >
+        <nav className="navbar">
+          <div className="navbar-container container" >
             <Link to="/" className="navbar-logo" tabIndex='0' onClick={closeMobileMenu}>
               Life between coding and cats
             </Link>
@@ -34,7 +34,7 @@ function NavBar2() {
             >
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className={click ? "nav-menu active" : "nav-menu"} tabIndex='0'>
+            <ol className={click ? "nav-menu active" : "nav-menu"} tabIndex='0'>
               <li className="nav-item">
                 <NavLink
                   to="/" tabIndex='0'
@@ -79,7 +79,7 @@ function NavBar2() {
                   Contact
                 </NavLink>
               </li>
-            </ul>
+            </ol>
           </div>
         </nav>
       </IconContext.Provider>
