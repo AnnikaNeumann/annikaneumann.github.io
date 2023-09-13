@@ -22,15 +22,18 @@
     margin: 0; /* Remove default margins to avoid excessive space */
     line-height: 1.6; 
     text-align: left; 
+    font-family: 'Outfit', sans-serif;
   }
 
   h1{
     color: black;
     margin-top: 2%;
+    font-family: 'Outfit', sans-serif;
   }
 
-  h2 +p {
+  h2 {
     margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
   }
 
   

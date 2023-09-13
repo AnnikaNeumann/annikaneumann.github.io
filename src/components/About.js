@@ -9,7 +9,7 @@ const About = () =>{
         <div className="flex-container">
           
           <div className="text-container">
-            <h1 tabIndex='0'>About Me</h1>
+            <h1 tabIndex='0'>About Me</h1><br></br>
             <p tabIndex='0'>I was born in Germany and lived in the beautiful Black Forest region until I moved to Edinburgh in 2016. It was the love for Scotland, its dramatic landscapes,
             tartan tales, dashing kilted Highlanders and standing stones (which may or may not let you go through them, in case you were having some gemstones in your possession).
             My following 5.5 years were spent in the NHS, a world of bustling corridors and organized chaos, donning the hat of administration until February 2022. <br></br><br></br>I took the leap of faith in 2021
@@ -21,7 +21,7 @@ const About = () =>{
             My journey has been a dynamic exploration of SQL and Oracle Databases, intricately woven together with the ETL Tool Talend.</p>
             <br></br>
             
-            <h2 tabIndex='0' >My offline time</h2>
+            <h2 tabIndex='0' >My offline time</h2><br></br>
     
             <p tabIndex='0'> Cruising on my Vespa or diving into grisly novels that explore the realm of forensic pathology and horror are where my interests converge.<br></br>
             My heart beats for all things cinema, whether it's catching a flick at the theatre, immersing myself in the world of Star Trek or Comic Conventions,

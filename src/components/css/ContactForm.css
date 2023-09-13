@@ -3,6 +3,7 @@
     max-width: 600px;
     text-align: center;
     margin: 30px auto;
+
   }  
 
   input,
@@ -30,6 +31,10 @@
     padding-top: 30px;
   }
 
+  .all_fields{
+    text-align: center;
+  }
+    
   .input-icon {
   display: flex;
   align-items: center;
@@ -69,22 +74,15 @@
     outline: none; /* Remove default focus outline */
     box-shadow: 0 0 5px rgba(195, 114, 211, 0.5); /* Add a subtle box shadow on focus */
   }
-  /* display: inline-block;
-  margin-bottom: 20px;
-  margin-top: 60px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  background-color: #c372d3;
-  color: white; 
-  font-size: 16px; 
-  font-weight:bold;
-  transition: background-color 0.3s, color 0.3s;
-}
 
-.submit:hover{
-  border-color: black 1px solid;
-} */
+  .required{
+    font-size: 0.7rem;
+    margin-left: 15%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    margin-top: 1%;
+    line-height: 1%;
+  }
 
 
 label[for="user_name"]:before,

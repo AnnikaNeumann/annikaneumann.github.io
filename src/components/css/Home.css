@@ -21,18 +21,15 @@
 .aboutshort{
   font-size: 1rem;
   text-align: block;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
+  padding-top: 10%;
 }
 
 .annika {
-  border-radius: 50%;
-  max-width: 100px;
+  border-radius: 5px 20px;
+  max-width: 20%;
   height: auto;
-}
-
-.logo{
-	background: none !important;
-border: none !important;
+  padding-top: 8%;
 }
 
 .social-links {
@@ -53,8 +50,6 @@ border: none !important;
 .social-links a img {
   max-width: 30px; 
 }
-
-
 
 
 

@@ -23,7 +23,7 @@ function NavBar2() {
         <nav className="navbar">
           <div className="navbar-container container" >
             <Link to="/" className="navbar-logo" tabIndex='0' onClick={closeMobileMenu}>
-              Life between coding and cats
+            <img className="logo" src={require("../static/CatLogo.png")} alt='A black and white logo with the text "coding and cats.'/>
             </Link>
             <div 
             className="menu-icon" 

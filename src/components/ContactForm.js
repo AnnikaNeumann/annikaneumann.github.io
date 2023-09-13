@@ -41,24 +41,31 @@ const ContactForm = () => {
   return (
     <div>
     <h1 tabIndex={'0' }>Get in touch with me for any business related enquiries</h1>
+    <p className='all_fields' tabIndex='0' >*All fields required unless marked optional</p>
     <form className='contactform' ref={form} onSubmit={sendEmail}>
     <div className='name'>
+    <p className='required'>Full Name</p>
+
         <div className='input-icon'>
           <FaUser /> 
-          <label for='user_name'>Full Name<span aria-hidden="true">*</span></label>
-          <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' required />
+          <label for='user_name'><span aria-hidden="true"></span></label>
+          <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' />
         </div>
+        <p className='required'>Email address</p>
+
         <div className='input-icon'>
           <FaEnvelope /> 
-          <label for='user_email'>Email address<span aria-hidden="true">*</span></label>
-          <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' required />
+          <label for='user_email'><span aria-hidden="true"></span></label>
+          <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' />
         </div>
       </div>
       <div className='message_field'>
+      <p className='required'>Your message</p>
+
         <div className='input-icon'>
           <FaPhone /> 
-          <label for='message'>Your Message<span aria-hidden="true">*</span></label>
-          <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message' required></textarea>
+          <label for='message'><span aria-hidden="true"></span></label>
+          <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message'></textarea>
         </div>
         {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
       </div>
