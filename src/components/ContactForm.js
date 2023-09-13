@@ -40,29 +40,29 @@ const ContactForm = () => {
 
   return (
     <div>
-    <h1>Contact Form</h1>
-    <form className='cf' ref={form} onSubmit={sendEmail}>
-      <div className='half left cf'>
+    <h1 tabIndex={'0' }>Get in touch with me for any business related enquiries</h1>
+    <form className='contactform' ref={form} onSubmit={sendEmail}>
+    <div className='name'>
         <div className='input-icon'>
           <FaUser /> 
-          <label htmlFor='user_name'>Full Name*</label>
-          <input type='text' tabIndex='0' placeholder='Full Name' name='user_name' required />
+          <label for='user_name'>Full Name<span aria-hidden="true">*</span></label>
+          <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' required />
         </div>
         <div className='input-icon'>
           <FaEnvelope /> 
-          <label htmlFor='user_email'>Email address*</label>
-          <input type='email' tabIndex='0' placeholder='Email address' name='user_email' required />
+          <label for='user_email'>Email address<span aria-hidden="true">*</span></label>
+          <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' required />
         </div>
       </div>
-      <div className='half right cf'>
+      <div className='message_field'>
         <div className='input-icon'>
           <FaPhone /> 
-          <label htmlFor='message'>Your Message*</label>
-          <textarea name='message' tabIndex='0' type='text' placeholder='Your Message' required></textarea>
+          <label for='message'>Your Message<span aria-hidden="true">*</span></label>
+          <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message' required></textarea>
         </div>
         {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
       </div>
-      <input type='submit' tabIndex='0' value='Submit' id='input-submit' />
+      <input type='submit' tabIndex='0' value='Submit' className='submit' />
     </form>
   </div>
   );

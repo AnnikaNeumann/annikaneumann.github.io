@@ -6,13 +6,10 @@
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    background-color: #b9c7d7; /* Button background color */
+    background-color: #c372d3;
     color: #ffffff; /* Button text color */
     font-size: 16px; /* Default font size for normal screens */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
-  
-    background-color: #c372d3;
-    color: #ffffff;
   }
   
   /* Hover effect */

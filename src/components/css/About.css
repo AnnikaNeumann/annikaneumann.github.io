@@ -1,6 +1,6 @@
 /* Base styles */
 .about {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -13,24 +13,15 @@
     color:black;
   }
   
-  
-  .annika {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    /* margin-top: 10%; */
-  }
-  
   .text-container {
     padding: 1px;
-    font-size: 16px; 
   }
 
   p {
     color: black;
     margin: 0; /* Remove default margins to avoid excessive space */
     line-height: 1.6; 
-    text-align: justify; 
+    text-align: left; 
   }
 
   h1{
@@ -47,8 +38,8 @@
   /* Media query for mobile devices (max-width: 600px) */
   @media (max-width: 600px) {
     .text-container {
-      text-align: block;
-      font-size: 16px; 
+      text-align: left;
+      font-size: 14px; 
       padding: 10px;
     }
 }

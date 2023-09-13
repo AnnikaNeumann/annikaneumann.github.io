@@ -1,78 +1,9 @@
-/* body {
-    background: #f1f1f1;
-    font-family: '', sans-serif;
-    padding: 1em;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #a8a8a8;
-  }
-  
-  form {
+
+  .contactform{
     max-width: 600px;
     text-align: center;
-    margin: 20px auto;
-  }
-  
-  input,
-  textarea {
-    border: 0;
-    outline: 0;
-    padding: 1em;
-    border-radius: 8px;
-    display: block;
-    width: 100%;
-    margin-top: 1em;
-    font-family: 'Outfit', sans-serif;    
-    resize: none;
-  }
-  
-  #input-submit {
-    color: white;
-    background: #e74c3c;
-    cursor: pointer;
-  }
-  
-  #input-submit:hover {
-    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-  }
-  
-  textarea {
-    height: 126px;
-  }
-  
-  .half {
-    float: left;
-    width: 48%;
-    margin-bottom: 1em;
-  }
-  
-  .right {
-    width: 50%;
-  }
-  
-  .left {
-    margin-right: 2%;
-  }
-  
-  @media (max-width: 480px) {
-    .half {
-      width: 100%;
-      float: none;
-      margin-bottom: 0;
-    }
-  }
-  
-  .cf:before,
-  .cf:after {
-    content: ' ';
-    display: table;
-  }
-  
-  .cf:after {
-    clear: both;
-  } */
+    margin: 30px auto;
+  }  
 
   input,
   textarea {
@@ -80,18 +11,29 @@
     outline: 1px;
     padding: 1em;
     border-radius: 8px;
-    display: block;
-    width: 100%;
+    display:block;
+    width:fit-content;
     margin-top: 1em;
+    margin-left: 2em;
     font-family: 'Outfit', sans-serif;    
     resize: none;
     font-size: 1rem;
   }
 
-  /* Add styles for icon containers */
-.input-icon {
+  ::placeholder{
+    color: #161616;
+  }
+
+  h1 {
+    text-align: center;
+    color: #767474;
+    padding-top: 30px;
+  }
+
+  .input-icon {
   display: flex;
   align-items: center;
+  margin-left: 15px;
 }
 
 /* Style the icons */
@@ -100,24 +42,50 @@
 }
 
 /* Style the submit button */
-#input-submit {
-  color: #333; /* Dark gray text color */
-  background: #e9c1f5; /* Light gray background */
-  cursor: pointer;
-  font-size: 18px; /* Larger font size */
-  padding: 0.5em 1em; /* Adjust padding for smaller button */
-  border-radius: 5%;
+  .submit {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e59edf; /* Lighter background color */
+    color: #333; /* Darker font color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition effect */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Hover effect */
+  .submit:hover {
+    background-color: #c372d3; /* Original background color on hover */
+    color: white; /* Text color on hover */
+    border-color: #000; /* Border color on hover */
+  }
+  
+  /* Focus effect */
+  .submit:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(195, 114, 211, 0.5); /* Add a subtle box shadow on focus */
+  }
+  /* display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #c372d3;
+  color: white; 
+  font-size: 16px; 
+  font-weight:bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-#input-submit:hover {
-  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-}
+.submit:hover{
+  border-color: black 1px solid;
+} */
 
-/* Add space between message field and name/email fields */
-.left input,
-.right textarea {
-  margin-top: 2em; /* Increase the margin for more space */
-}
 
 label[for="user_name"]:before,
 label[for="user_email"]:before,
@@ -133,3 +101,4 @@ label[for="message"]:before {
     margin-bottom: 0;
   }
 }
+

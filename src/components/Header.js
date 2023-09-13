@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import Navigation from '../components/Navigation';
+import NavBar2 from "./NavBar2";
+
 
 
 const Header = () => {
@@ -7,8 +8,8 @@ const Header = () => {
 
     return (
         <div className="header">
-
-                    <Navigation/>
+                    <NavBar2/>
+                    
                     </div>                    
         
     )
