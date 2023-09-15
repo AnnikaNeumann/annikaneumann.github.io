@@ -1,57 +1,85 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter } from 'react-router-dom'; // Import createBrowserRouter
+import { createRouter } from 'react-router-dom'; // Use createRouter
 import Home from './components/Home';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
 import Projects from './components/Projects';
-import { RouterProvider, Route, Link, Outlet,} from "react-router-dom";
+import SubmitSuccess from './components/SubmitSuccess';
 
+const root = createRoot(document.getElementById('root'));
 
+const router = createRouter({
+  routes: [
+    { path: '/', element: <Home /> },
+    { path: '/about', element: <About /> },
+    { path: '/contact', element: <ContactForm /> },
+    { path: '/projects', element: <Projects /> },
+    { path: '/submitsuccess', element: <SubmitSuccess /> },
+  ],
+});
 
-const router = createBrowserRouter([
-  {
-    element: <App />,
-    children: [
-      {
-        path: '/',
-        element: <Home />,
-      },
-      {
-        path: '/about',
-        element: <About />,
-      },
-      {
-        path: '/contact',
-        element: <ContactForm />,
-      },
-      {
-        path: '/projects',
-        element: <Projects />,
-      },
-    ],
-  },
-]);
-
-ReactDOM.render(
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  // document.getElementById('root')
 );
 
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// import React from 'react';
+// import {createRoot} from 'react-dom/client';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+// import { createBrowserRouter } from 'react-router-dom'; 
+// import Home from './components/Home';
+// import About from './components/About';
+// import ContactForm from './components/ContactForm';
+// import Projects from './components/Projects';
+// import SubmitSuccess from './components/SubmitSuccess';
+// import { RouterProvider, Route, Link, Outlet,} from "react-router-dom";
+
+// const root = createRoot(document.getElementById('root'));
+
+// const router = createBrowserRouter([
+//   {
+//     element: <App />,
+//     children: [
+//       {
+//         path: '/',
+//         element: <Home />,
+//       },
+//       {
+//         path: '/about',
+//         element: <About />,
+//       },
+//       {
+//         path: '/contact',
+//         element: <ContactForm />,
+//       },
+//       {
+//         path: '/projects',
+//         element: <Projects />,
+//       },
+//       {
+//         path: '/submitsuccess',
+//         element: <SubmitSuccess />,
+//       },
+//     ],
+//   },
+// ]);
+
+// root.render(
+//   <React.StrictMode>
+//     <RouterProvider router={router}>
+//       <App />
+//     </RouterProvider>
+//   </React.StrictMode>,
+// );
 
 
-
-// createRoot(document.getElementById("root")).render(
-//   <App router={router} />

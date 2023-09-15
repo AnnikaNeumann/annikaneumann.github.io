@@ -1,12 +1,17 @@
 import '../components/css/ContactForm.css';
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
-import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa'; // Import React icons
+import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa'; 
+import ErrorBoundary from './ErrorBoundary';
+import {useNavigate} from 'react-router-dom';
+// import { Router } from 'react-router-dom';
 
 
 const ContactForm = () => {
   const form = useRef();
   const [isFormEmpty, setIsFormEmpty] = useState(false);
+  const navigate = useNavigate();
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,14 +36,20 @@ const ContactForm = () => {
           console.log("Message sent");
           setIsFormEmpty(false); // Reset the empty form flag
           form.current.reset(); // Clear the form fields
-        },
-        (error) => {
-          console.log(error.text);
+          
+          navigate.push('/submitsuccess');
         }
-      );
+      )
+      .catch((error) => {
+        console.log(error.text)
+        throw error;
+      });
+
+    
   };
 
   return (
+    <ErrorBoundary>
     <div>
     <h1 tabIndex={'0' }>Get in touch with me for any business related enquiries</h1>
     <p className='all_fields' tabIndex='0' >*All fields required unless marked optional</p>
@@ -69,9 +80,10 @@ const ContactForm = () => {
         </div>
         {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
       </div>
-      <input type='submit' tabIndex='0' value='Submit' className='submit' />
+      <input type='submit' onClick="window.location.href='/'" tabIndex='0' value='Submit' className='submit' />
     </form>
   </div>
+  </ErrorBoundary>
   );
 };
 
