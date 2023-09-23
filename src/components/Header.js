@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import NavBar2 from "./NavBar2";
+import SkipToContent from './SkipToContent';
 
 
 
@@ -8,9 +9,11 @@ const Header = () => {
 
     return (
         <div className="header">
-                    <NavBar2/>
-                    
-                    </div>                    
+            <header>
+                <SkipToContent />
+            </header>
+            <NavBar2/>
+        </div>                    
         
     )
 }

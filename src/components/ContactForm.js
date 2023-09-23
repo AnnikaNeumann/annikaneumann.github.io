@@ -1,17 +1,13 @@
+
 import '../components/css/ContactForm.css';
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
-import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa'; 
-import ErrorBoundary from './ErrorBoundary';
-import {useNavigate} from 'react-router-dom';
-// import { Router } from 'react-router-dom';
-
+import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { BrowserRouter } from 'react-router-dom';
 
 const ContactForm = () => {
   const form = useRef();
   const [isFormEmpty, setIsFormEmpty] = useState(false);
-  const navigate = useNavigate();
-
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,64 +26,53 @@ const ContactForm = () => {
         form.current,
         "7LyZ2sovpyw_93QHC"
       )
-      .then(
-        (result) => {
-          alert('Message sent successfully...');
-          console.log("Message sent");
-          setIsFormEmpty(false); // Reset the empty form flag
-          form.current.reset(); // Clear the form fields
-          
-          navigate.push('/submitsuccess');
-        }
-      )
+      .then((result) => {
+        alert('Message sent successfully...');
+        console.log("Message sent");
+        setIsFormEmpty(false); // Reset the empty form flag
+        form.current.reset(); // Clear the form fields
+      })
       .catch((error) => {
-        console.log(error.text)
+        console.log(error.text);
         throw error;
       });
-
-    
   };
 
   return (
-    <ErrorBoundary>
-    <div>
-    <h1 tabIndex={'0' }>Get in touch with me for any business related enquiries</h1>
-    <p className='all_fields' tabIndex='0' >*All fields required unless marked optional</p>
-    <form className='contactform' ref={form} onSubmit={sendEmail}>
-    <div className='name'>
-    <p className='required'>Full Name</p>
+      <div>
+        <h1 tabIndex={'0'}>Get in touch with me for any business-related enquiries</h1>
+        <p className='all_fields' tabIndex='0'>*All fields required unless marked optional</p>
+        <form className='contactform' ref={form} onSubmit={sendEmail}>
+          <div className='name'>
+            <p className='required'>Full Name</p>
 
-        <div className='input-icon'>
-          <FaUser /> 
-          <label for='user_name'><span aria-hidden="true"></span></label>
-          <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' />
-        </div>
-        <p className='required'>Email address</p>
+            <div className='input-icon'>
+              <FaUser />
+              <label htmlFor='user_name'><span aria-hidden="true"></span></label>
+              <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' />
+            </div>
+            <p className='required'>Email address</p>
 
-        <div className='input-icon'>
-          <FaEnvelope /> 
-          <label for='user_email'><span aria-hidden="true"></span></label>
-          <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' />
-        </div>
+            <div className='input-icon'>
+              <FaEnvelope />
+              <label htmlFor='user_email'><span aria-hidden="true"></span></label>
+              <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' />
+            </div>
+          </div>
+          <div className='message_field'>
+            <p className='required'>Your message</p>
+
+            <div className='input-icon'>
+              <FaPhone />
+              <label htmlFor='message'><span aria-hidden="true"></span></label>
+              <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message'></textarea>
+            </div>
+            {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
+          </div>
+          <input type='submit' tabIndex='0' value='Submit' className='submit' />
+        </form>
       </div>
-      <div className='message_field'>
-      <p className='required'>Your message</p>
-
-        <div className='input-icon'>
-          <FaPhone /> 
-          <label for='message'><span aria-hidden="true"></span></label>
-          <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message'></textarea>
-        </div>
-        {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}
-      </div>
-      <input type='submit' onClick="window.location.href='/'" tabIndex='0' value='Submit' className='submit' />
-    </form>
-  </div>
-  </ErrorBoundary>
   );
 };
 
 export default ContactForm;
-
-
-
