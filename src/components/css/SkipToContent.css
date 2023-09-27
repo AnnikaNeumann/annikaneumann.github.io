@@ -1,4 +1,4 @@
-.skip-link {
+/* .skip-link {
     position: absolute;
     transform: translateY(-120%);
   
@@ -12,7 +12,21 @@
     top: 0;
     opacity: 1;
     transform: translateY(0);
-  }
+  } */
 
  
+  .skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
   

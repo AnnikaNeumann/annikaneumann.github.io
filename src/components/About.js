@@ -4,7 +4,7 @@ import '../components/css/About.css';
 const About = () =>{
 
     return (
-        <main>
+        
           <section className="about">
         <div className="flex-container">
           
@@ -35,7 +35,7 @@ const About = () =>{
             </div>
             </div>
           </section>
-        </main>
+        // </main>
       );
     }
 

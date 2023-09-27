@@ -3,7 +3,6 @@ import '../components/css/ContactForm.css';
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
 import { FaUser, FaEnvelope, FaPhone } from 'react-icons/fa';
-import { BrowserRouter } from 'react-router-dom';
 
 const ContactForm = () => {
   const form = useRef();
@@ -48,14 +47,14 @@ const ContactForm = () => {
 
             <div className='input-icon'>
               <FaUser />
-              <label htmlFor='user_name'><span aria-hidden="true"></span></label>
+              <label for='user_name'><span aria-required="true" aria-hidden="true"></span></label>
               <input type='text' id='user_name' tabIndex='0' placeholder='Full Name' name='user_name' />
             </div>
             <p className='required'>Email address</p>
 
             <div className='input-icon'>
               <FaEnvelope />
-              <label htmlFor='user_email'><span aria-hidden="true"></span></label>
+              <label for='user_email'><span aria-required="true" aria-hidden="true"></span></label>
               <input type='email' id='user_email' tabIndex='0' placeholder='Email address' name='user_email' />
             </div>
           </div>
@@ -64,7 +63,7 @@ const ContactForm = () => {
 
             <div className='input-icon'>
               <FaPhone />
-              <label htmlFor='message'><span aria-hidden="true"></span></label>
+              <label for='message'><span aria-required="true" aria-hidden="true"></span></label>
               <textarea name='message' id='message' tabIndex='0' type='text' placeholder='Your Message'></textarea>
             </div>
             {isFormEmpty && <p style={{ color: 'red' }}>Message field cannot be empty.</p>}

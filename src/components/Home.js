@@ -17,6 +17,7 @@ const Home = () =>{
     aTag.click();
   }
         return (
+          <main id="main-content">
 
           <section className="about">
   <div className="flex-container">
@@ -25,10 +26,10 @@ const Home = () =>{
       <img className="annika" src={require("../static/annika.png")} alt='Annika has blonde hair and she wears a black jacket. On her shoulder is a white cat.'/>
     </div>
     <div className="flex-item">
-      <p tabIndex='0' className="aboutshort">
+      <p tabIndex='0' className="aboutshort" >
         I'm Annika, a German in Scotland since 2016, accompanied by my cats.<br></br>Embracing creativity in tech, drawing,
-        cooking, and DIY I thrive on<br></br>crafting meaningful experiences.<br></br>With a focus on Frontend development, I've honed skills in JavaScript,<br></br>HTML, CSS, WordPress,
-        SQL databases, and a11y.<br></br>My goal and passion is to make the digital world inclusive and intuitive.
+        cooking, and DIY I thrive on<br></br>crafting meaningful experiences.<br></br>With a focus on Frontend development, I've honed skills in JavaScript,<br></br>HTML, CSS, React and a basics of WordPress Development,
+        SQL databases, and Accessibility.<br></br>My goal and passion is to make the digital world inclusive and intuitive.
         <br></br> Join this journey where creativity knows no bounds.
       </p>
       <div className='button-container'>
@@ -41,6 +42,7 @@ const Home = () =>{
     </div>
   </div>
 </section>
+</main>
         );
       }
     
