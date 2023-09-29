@@ -1,20 +1,4 @@
-/* .skip-link {
-    position: absolute;
-    transform: translateY(-120%);
-  
-  }
-  
-  .skip-link:focus {
-    background-color: rgb(242, 188, 234);
-    padding: .5rem 1.5rem;
-    border-radius: 0 0 0.25rem 0.25rem;
-    color: rgb(7, 6, 6);
-    top: 0;
-    opacity: 1;
-    transform: translateY(0);
-  } */
 
- 
   .skip-link {
     position: absolute;
     left: -10000px;

@@ -1,0 +1,35 @@
+/* Dark mode toggle styles */
+.dark-mode-toggle {
+  position: relative;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  border: none;
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  outline: none; /* Remove the default focus outline */
+}
+
+.toggle-button:focus {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 255, 0.5); /* Add a focus style */
+}
+
+.toggle-button.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+/* Dark mode styles */
+.dark-mode .toggle-button {
+  transform: translateX(24px);
+}

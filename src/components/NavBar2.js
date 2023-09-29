@@ -4,8 +4,9 @@ import "./css/NavBar2.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
+import DarkModeToggle from "./DarkModeToggle";
 
-function NavBar2() {
+function NavBar2(props) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -78,6 +79,7 @@ function NavBar2() {
                 >
                   Contact
                 </NavLink>
+                <DarkModeToggle/>
               </li>
             </ol>
           </div>
