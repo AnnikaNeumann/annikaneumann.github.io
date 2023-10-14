@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.40f8a139.css",
+    "main.css": "/static/css/main.d68858ad.css",
     "main.js": "/static/js/main.1214b564.js",
     "static/js/787.7095dfdc.chunk.js": "/static/js/787.7095dfdc.chunk.js",
     "static/media/BreakingBad.png": "/static/media/BreakingBad.ae9d7f9ca1f90faf96da.png",
@@ -9,12 +9,12 @@
     "static/media/BeyondTravelLogo.png": "/static/media/BeyondTravelLogo.d0a4add998b36440080e.png",
     "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/index.html",
-    "main.40f8a139.css.map": "/static/css/main.40f8a139.css.map",
+    "main.d68858ad.css.map": "/static/css/main.d68858ad.css.map",
     "main.1214b564.js.map": "/static/js/main.1214b564.js.map",
     "787.7095dfdc.chunk.js.map": "/static/js/787.7095dfdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40f8a139.css",
+    "static/css/main.d68858ad.css",
     "static/js/main.1214b564.js"
   ]
 }
