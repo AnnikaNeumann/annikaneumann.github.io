@@ -1,35 +1,57 @@
 /* Dark mode toggle styles */
 .dark-mode-toggle {
   position: relative;
+  margin-left: 2rem;
 }
 
 .toggle-button {
-  display: flex;
-  align-items: center;
+  display:flex;
+  
+  align-items: flex-start;
   background-color: #ddd;
   border: none;
-  padding: 8px;
-  border-radius: 50px;
+  padding: 0.5rem; 
+  margin-top: 1rem;
+  margin-left: -3rem;
+  border-radius: 3rem; 
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  outline: none; /* Remove the default focus outline */
+  outline: none; 
 }
 
 .toggle-button:focus {
-  box-shadow: 0 0 4px 2px rgba(0, 0, 255, 0.5); /* Add a focus style */
+  box-shadow: 0 0 0.25rem 0.125rem rgba(0, 0, 255, 0.5); 
 }
 
 .toggle-button.dark {
   background-color: #333;
   color: #fff;
 }
+.darkMode{
+  --background-color: #000;
+  --text-color: #fff;
 
+}
 .icon {
-  font-size: 20px;
-  margin-right: 8px;
+  font-size: 1.25rem; 
+  margin-right: 0.5rem;
 }
 
 /* Dark mode styles */
-.dark-mode .toggle-button {
-  transform: translateX(24px);
+[data-theme="dark"] .toggle-button {
+  transform: translateX(2rem); 
+}
+
+/* Dark mode styles */
+[data-theme='dark'] {
+  --background-color: #000;
+  --text-color: #fff;
+  /* Add more dark mode styles here */
+}
+
+/* Light mode styles (default) */
+[data-theme='light'] {
+  --background-color: #fff;
+  --text-color: #000;
+  /* Add more light mode styles here */
 }

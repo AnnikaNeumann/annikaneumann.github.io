@@ -1,13 +1,14 @@
 import React from 'react';
 import '../components/css/Projects.css';
 
-const Projects = () =>{
+
+const Projects = ( {}) =>{
 
 
     return(
         <>
         <section>
-        <h1 tabIndex= '0' className='project'>Take a sneak peak into a few projects<br></br> and click on each project for more information</h1>
+        <h1 tabIndex= '0' className='project'>Take a sneak peak into a few projects and the Github repositories,<br></br>just click on each project for more information</h1>
         <br></br>
         <div className="flex-projects">
 

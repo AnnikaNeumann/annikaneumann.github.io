@@ -4,9 +4,8 @@ import "./css/NavBar2.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
-import DarkModeToggle from "./DarkModeToggle";
 
-function NavBar2(props) {
+function NavBar2() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -20,12 +19,15 @@ function NavBar2(props) {
 
   return (
     <>
+
       <IconContext.Provider value={{ color: "#fff" }}>
-        <nav className="navbar">
           <div className="navbar-container container" >
+          
+
             <Link to="/" className="navbar-logo" tabIndex='0' onClick={closeMobileMenu}>
             <img className="logo" src={require("../static/CatLogo.png")} alt='A black and white logo with the text "coding and cats.'/>
             </Link>
+
             <div 
             className="menu-icon" 
             tabIndex='0' 
@@ -79,11 +81,9 @@ function NavBar2(props) {
                 >
                   Contact
                 </NavLink>
-                <DarkModeToggle/>
               </li>
             </ol>
           </div>
-        </nav>
       </IconContext.Provider>
     </>
   );
