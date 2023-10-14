@@ -29,9 +29,11 @@ const Home = () =>{
     <div className="flex-item">
       <p tabIndex='0' className="aboutshort" >
         I'm Annika, a German in Scotland since 2016, accompanied by my cats.<br></br>Embracing creativity in tech, drawing,
-        cooking, and DIY I thrive on<br></br>crafting meaningful experiences.<br></br>With a focus on Frontend development, I've honed skills in JavaScript,<br></br>HTML, CSS, React and a basics of WordPress Development,
-        SQL databases, and Accessibility.<br></br>My goal and passion is to make the digital world inclusive and intuitive.
-        <br></br> Join this journey where creativity knows no bounds.
+        cooking, and DIY I thrive on crafting meaningful experiences.<br></br><br></br>With a focus on Frontend development in my time outside of work, I've honed my skills in JavaScript,<br></br>HTML, CSS, React and a basics of WordPress Development as well as Fundamentals of Accessibility.<br></br>My goal and passion is to make the digital world inclusive and intuitive.<br></br><br></br>
+        My daily workload as a Talend Enginner focuses strongly on the usage of SQL and Oracle Databases, in which I have gained a good understanding since I started the job in August 2022.<br></br><br></br> This portfolio is fun project where I am aiming to gradually add more accessible related features, according 
+        to my own best knowledge and accordingly to the WCAG Standards. Explore the content without your mouse or use a screen reader (tested with the Chrome extension).
+        Join this journey where creativity knows no bounds.
+        <br></br>
       </p>
       <div className='button-container'>
         <button className='pdf_button' type="button" tabIndex='0' onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}>Download my Cv</button>

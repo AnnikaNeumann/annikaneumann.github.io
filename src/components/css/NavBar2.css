@@ -17,6 +17,7 @@
   }
   
   .navbar-container {
+    background: #19191a;
     display: flex;
     justify-content: space-evenly;
     height: 80px;
