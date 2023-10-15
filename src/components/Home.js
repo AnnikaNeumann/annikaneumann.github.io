@@ -3,12 +3,9 @@ import '../components/css/Home.css';
 import '../components/css/Button.css';
 
 
-
 const PDF_FILE_URL = 'http://localhost:3000/cv_ANeumann.pdf';
 
-
 const Home = () =>{
-
 
   const downloadFileAtURL=(url)=>{
     const fileName = url.split('/').pop();

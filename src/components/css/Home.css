@@ -1,8 +1,7 @@
-/* Define styles for the section */
 .about {
   max-width: 600px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
 }
 
 /* Flex container for the image and text */
@@ -21,8 +20,8 @@
 .aboutshort{
   font-size: 1rem;
   text-align: block;
-  padding-bottom: 4%;
-  padding-top: 10%;
+  padding-bottom: 3%;
+  padding-top: 5%;
 }
 
 .annika {
@@ -35,7 +34,7 @@
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .social-links a:focus {
